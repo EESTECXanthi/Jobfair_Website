@@ -12,6 +12,7 @@
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "^2.0.2",
     "@tsconfig/svelte": "^3.0.0",
+    "@types/parallax-js": "^3.1.0",
     "autoprefixer": "^10.4.7",
     "postcss": "^8.4.14",
     "postcss-load-config": "^4.0.1",
@@ -28,6 +29,7 @@
     "classnames": "^2.3.2",
     "flowbite": "^1.6.3",
     "flowbite-svelte": "^0.30.5",
+    "parallax-js": "^3.1.0",
     "tailwindcss": "^3.2.7"
   }
 }
