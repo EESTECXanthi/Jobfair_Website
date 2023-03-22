@@ -1,31 +1,111 @@
 <!DOCTYPE html>
-<html lang="en">
+
+<html>
+
   <head>
-    <meta charset="UTF-8" />
 
-    <link rel="stylesheet" href="build/smui.css" />
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <title>JobFair EESTEC LC Xanthi</title>
 
-    <link
-    rel="stylesheet"
-    href="https://fonts.googleapis.com/icon?family=Material+Icons"
-  />
-  <!-- Roboto -->
-  <link
-    rel="stylesheet"
-    href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700"
-  />
-  <!-- Roboto Mono -->
-  <link
-    rel="stylesheet"
-    href="https://fonts.googleapis.com/css?family=Roboto+Mono"
-  />
-
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + Svelte</title>
   </head>
+
   <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.js"></script>
+
+    <header class="header_navbar sticky" id="navbar">
+
+      <img
+      class="img_navbar_logo"
+      src="assets/img/combined_logo.png"
+      alt="LC Xanthi Logo + Jobfair Logo"
+      onmouseover="hover(this);"
+      onmouseout="unhover(this);"
+      />
+
+      <nav>
+
+        <ul class="ul_nav_links">
+
+          <li class="li_navbar_link"><a class="a_navbar_link" href="#home">Home</a></li>
+          <li class="li_navbar_link"><a class="a_navbar_link" href="#about">About</a></li>
+          <li class="li_navbar_link"><a class="a_navbar_link" href="#sponsors">Sponsors</a></li>
+          <li class="li_navbar_link"><a class="a_navbar_link" href="#contact">Contact</a></li>
+
+        </ul>
+
+      </nav>
+
+    </header>
+
+    <div class="div_top_section_heading">Jobfair 2023 | Find Your Path</div>
+
+    <div class="div_frontpage_left">
+
+      <img
+      class="img_jobfair_logo"
+      src="assets/img/jflogored.png"
+      alt="Jobfair Logo">
+
+    </div>
+
+    <div class="div_frontpage_right">
+
+      <img
+      class="img_frontpage_photo"
+      id="photo"
+      src="assets/img/photo001.png"
+      alt="Photo">
+
+    </div>
+    
+    <hr class="hr_section_divider">
+
+    <div class="div_section_heading">About JobFair</div>
+
+    <div class="div_about_left">
+
+      <p class="p_about_heading">What is JobFair?</p>
+
+      <p class="p_about">&#183 Διημερίδα επαγγελματικού προσανατολισμού.</p>
+
+      <p class="p_about">&#183 Απευθύνεται σε φοιτητές πολυτεχνικών σχολών.</p>
+
+      <p class="p_about">&#183 Αποτελεί τον συνδετικό κρίκο μεταξύ φοιτητών και εταιριών.</p>
+
+      <p class="p_about">&#183 Προσφέρει: γνωριμίες, κίνητρο, εργασιακές ευκαιρίες και μια γενικότερη εικόνα του εργασιακού τομέα.</p>
+
+    </div>
+
+    <div class="div_about_right">
+
+      <p class="p_about_heading">Event Information</p>
+
+      <p class="p_about">&#183 Placeholder text</p>
+
+      <p class="p_about">&#183 Placeholder text</p>
+
+      <p class="p_about">&#183 Placeholder text</p>
+
+      <p class="p_about">&#183 Placeholder text</p>
+
+    </div>
+
+    <hr class="hr_section_divider">
+
+    <div class="div_section_heading">Sponsors</div>
+
+    <hr class="hr_section_divider">
+
+    <div class="div_section_heading">Contact</div>
+
+    <script async src="script.js"></script>
+
   </body>
+
 </html>
