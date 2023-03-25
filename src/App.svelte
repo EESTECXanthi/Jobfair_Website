@@ -1,5 +1,17 @@
 <script>
-  import Nav from "./lib/Nav.svelte";
+  import Navbar from "./lib/Navbar.svelte";
+  import Home from "./lib/Home.svelte";
+  import About from "./lib/About.svelte";
+  import Sponsors from "./lib/Sponsors.svelte";
+  import Contact from "./lib/Contact.svelte";
+  import Line from "./lib/Line.svelte";
 </script>
 
-<Nav />
+<Navbar />
+<Home />
+<Line />
+<About />
+<Line />
+<Sponsors />
+<Line />
+<Contact />
