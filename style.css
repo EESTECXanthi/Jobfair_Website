@@ -1,6 +1,10 @@
 /*Generic START*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
 
+html {
+  scroll-behavior: smooth;
+}
+
 *{
   box-sizing: border-box;
   margin: 0;
@@ -19,6 +23,20 @@
   font-weight: bold;
   font-size: 50px;
   padding: 50px 0px 50px 0px;
+}
+
+.hr_card_underline{
+  border-top: 5px  white;
+  border-left: none;
+  border-right: none;
+  width: 400px;
+  margin-top: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #76202e;
+  background: #76202e;
+  /*Individual adjustments can be
+  found on each card div element*/
 }
 /*Generic END*/
 
@@ -91,6 +109,31 @@
   padding: 200px 0px 50px 0px;
 }
 
+.div_button_container{
+  justify-content: center;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+
+.button_apply_now{
+  font-weight: bold;
+  border-radius: 100px;
+  border-style: solid;
+  border-width: 5px;
+  font-size: 25px;
+  color: #76202e;
+  border-color: #76202e;
+  padding: 15px;
+  cursor: pointer;
+}
+
+.button_apply_now:hover{
+  color: white;
+  background-color: #76202e;
+  transition: 0.1s;
+}
+
 .div_frontpage_left {
   float: left;
   width: 50%;
@@ -160,3 +203,71 @@
   margin-left: auto;
   margin-right: auto;
 }
+/*About END*/
+
+/*Sponsors START*/
+/*Sponsors END*/
+
+/*Contact START*/
+.div_contact_master{
+  justify-content: space-around;
+  display: flex;
+  text-align: center;
+}
+
+.div_contact{
+  flex: 33.33;
+  width: 40%;
+  height: 350px;
+  padding: 20px;
+  margin: 0px 2% 50px 2%;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  border-style: solid;
+  border-color: #76202e;
+  border-radius: 20px;
+  background: #76202e;
+}
+
+.p_contact_heading{
+  font-size: 40px;
+  font-weight: bold;
+  padding: 10px 10px 0px 10px;
+  background: #76202e;
+  color: white;
+}
+
+.p_contact_subtitle{
+  font-size: 30px;
+  padding: 0px 10px 0px 10px;
+  background: #76202e;
+  color: white;
+}
+
+.p_contact{
+  font-size: 20px;
+  padding: 5px;
+  background: #76202e;
+  color: white;
+  clear: both;
+  cursor: pointer;
+}
+
+.div_contact_line{
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  background: #76202e;
+  padding: 5px;
+}
+
+
+.img_icon{
+  margin: 6px 5px 0px 5px;
+  border: none;
+  width: 20px;
+  height: 20px;
+  clear: both;
+}
+/*Contact END*/

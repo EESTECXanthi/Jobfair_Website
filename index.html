@@ -26,6 +26,7 @@
       alt="LC Xanthi Logo + Jobfair Logo"
       onmouseover="hover(this);"
       onmouseout="unhover(this);"
+      onClick="window.location.reload();"
       />
 
       <nav>
@@ -43,7 +44,13 @@
 
     </header>
 
-    <div class="div_top_section_heading">Jobfair 2023 | Find Your Path</div>
+    <div class="div_top_section_heading" id="home">Jobfair 2023 | Find Your Path</div>
+
+    <div class="div_button_container">
+
+      <button class="button_apply_now">Apply now</button>
+
+    </div>
 
     <div class="div_frontpage_left">
 
@@ -63,10 +70,10 @@
       alt="Photo">
 
     </div>
-    
+
     <hr class="hr_section_divider">
 
-    <div class="div_section_heading">About JobFair</div>
+    <div class="div_section_heading" id="about">About JobFair</div>
 
     <div class="div_about_left">
 
@@ -98,11 +105,151 @@
 
     <hr class="hr_section_divider">
 
-    <div class="div_section_heading">Sponsors</div>
+    <div class="div_section_heading" id="sponsors">Sponsors</div>
 
     <hr class="hr_section_divider">
 
-    <div class="div_section_heading">Contact</div>
+    <div class="div_section_heading" id="contact">Contact</div>
+
+    <div class="div_contact_master">
+
+      <div class="div_contact"> <!--HO Card-->
+    
+        <p class="p_contact_heading">JobFair Head Organizer</p>
+
+        <p class="p_contact_subtitle">Δημήτρης Αναστασούδης</p>
+
+        <hr class="hr_card_underline" style="width: 400px; margin-bottom: 30px;">
+    
+        <div class="div_contact_line"
+        onClick="window.open('mailto:dimitrisanastasoudis@gmail.com', '_blank').focus();"
+        >
+
+          <img
+          src="assets/img/email.png"
+          class="img_icon"
+          >
+
+          <p class="p_contact">dimitrisanastasoudis@gmail.com</p>
+
+        </div> <!--Email-->
+
+        <div class="div_contact_line">
+
+          <img
+          src="assets/img/phone.png"
+          class="img_icon"
+          >
+
+          <p class="p_contact">+30 698 828 7864</p>
+
+        </div> <!--Phone-->
+    
+        <div class="div_contact_line"
+        onClick="window.open('https://www.linkedin.com/in/anastasoudis', '_blank').focus();"
+        >
+
+          <img
+          src="assets/img/linkedin.png"
+          class="img_icon"
+          >
+
+          <p class="p_contact">Dimitris Anastasoudis</p>
+
+        </div> <!--LinkedIn-->
+    
+      </div> <!--HO Card-->
+    
+      <div class="div_contact"> <!--Social Media Card-->
+    
+        <p class="p_contact_heading">Social Media</p>
+
+        <hr class="hr_card_underline" style="width: 250px; margin-bottom: 10px;">
+    
+        <div class="div_contact_line"
+        onClick="window.open('#home', '_blank').focus();"
+        >
+
+          <img
+          src="assets/img/website.png"
+          class="img_icon"
+          alt="Website Icon"
+          >
+
+          <p class="p_contact">[URL PENDING]</p>
+
+        </div> <!--Website-->
+
+        <div class="div_contact_line"
+        onClick="window.open('mailto:jobfair.eesteclcxanthi@gmail.com', '_blank').focus();"
+        >
+
+          <img
+          src="assets/img/email.png"
+          class="img_icon"
+          alt="Email Icon"
+          >
+
+          <p class="p_contact">jobfair.eesteclcxanthi@gmail.com</p>
+
+        </div> <!--Email-->
+
+        <div class="div_contact_line">
+
+          <img
+          src="assets/img/facebook.png"
+          class="img_icon"
+          alt="Facebook Icon"
+          >
+
+          <p class="p_contact">JobFair-EESTEC LC Xanthi</p>
+
+        </div> <!--Facebook-->
+
+        <div class="div_contact_line"
+        onClick="window.open('https://www.instagram.com/jobfair_xanthi/', '_blank').focus();"
+        >
+
+          <img
+          src="assets/img/instagram.png"
+          class="img_icon"
+          alt="Instagram Icon"
+          >
+
+          <p class="p_contact">@jobfair_xanthi</p>
+
+        </div> <!--Instagram-->
+
+        <div class="div_contact_line"
+        onClick="window.open('https://www.linkedin.com/company/eesteclcxanthi?trk=public_profile_topcard-current-company', '_blank').focus();"
+        >
+
+          <img
+          src="assets/img/linkedin.png"
+          class="img_icon"
+          >
+
+          <p class="p_contact">EESTEC LC Xanthi</p>
+
+        </div> <!--LinkedIn-->
+    
+      </div> <!--Social Media Card-->
+
+      <div class="div_contact">
+    
+        <p class="p_contact_heading">Placeholder text</p>
+    
+        <p class="p_contact">&#183 Placeholder text</p>
+    
+        <p class="p_contact">&#183 Placeholder text</p>
+    
+        <p class="p_contact">&#183 Placeholder text</p>
+    
+        <p class="p_contact">&#183 Placeholder text</p>
+    
+      </div>
+
+    </div>
 
     <script async src="script.js"></script>
 
