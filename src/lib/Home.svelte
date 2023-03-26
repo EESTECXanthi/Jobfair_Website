@@ -2,6 +2,12 @@
   import { Splide, SplideSlide, SplideTrack } from "@splidejs/svelte-splide";
   import "@splidejs/svelte-splide/css";
   import ProgressBar from "./ProgressBar.svelte";
+  import image1 from "../assets/img/photo001.png";
+  import image2 from "../assets/img/photo002.png";
+  import image3 from "../assets/img/photo003.png";
+  import image4 from "../assets/img/photo004.png";
+  import image5 from "../assets/img/photo005.png";
+  import image6 from "../assets/img/photo006.png";
 
   const options = {
     rewind: true,
@@ -32,20 +38,22 @@
 
 <Splide {options} on:autoplayPlaying={slider}>
   <SplideSlide>
-    <!-- svelte-ignore a11y-img-redundant-alt -->
-    <img src="./src/assets/img/photo001.png" alt="Image 1" />
+    <img src={image1} alt="1" />
   </SplideSlide>
   <SplideSlide>
-    <!-- svelte-ignore a11y-img-redundant-alt -->
-    <img src="./src/assets/img/photo002.png" alt="Image 1" />
+    <img src={image2} alt=" 2" />
   </SplideSlide>
   <SplideSlide>
-    <!-- svelte-ignore a11y-img-redundant-alt -->
-    <img src="./src/assets/img/photo003.png" alt="Image 1" />
+    <img src={image3} alt=" 3" />
   </SplideSlide>
   <SplideSlide>
-    <!-- svelte-ignore a11y-img-redundant-alt -->
-    <img src="./src/assets/img/photo004.png" alt="Image 1" />
+    <img src={image4} alt="4" />
+  </SplideSlide>
+  <SplideSlide>
+    <img src={image5} alt="5" />
+  </SplideSlide>
+  <SplideSlide>
+    <img src={image6} alt="6" />
   </SplideSlide>
 </Splide>
 
@@ -61,6 +69,7 @@
     display: flex;
     justify-content: center;
   }
+
   .card {
     background-color: #76202e;
     border-radius: 30px;
@@ -71,7 +80,6 @@
     position: absolute;
     top: 70vh;
     z-index: 99;
-
     box-shadow: 15px 15px 5px 3px rgba(54, 14, 14, 0.2);
   }
 
@@ -82,7 +90,7 @@
     font-weight: bold;
     font-size: 50px;
     color: white;
-    /* padding: 200px 0px 50px 0px; */
+    padding: 0px 0px 2vw 0px;
   }
 
   .div_button_container {
@@ -97,17 +105,19 @@
     border-radius: 100px;
     border-style: solid;
     border-width: 5px;
-    font-size: 25px;
-    color: #76202e;
-    border-color: #76202e;
-    padding: 15px;
+    font-size: 30px;
+    color: white;
+    background-color: #76202e;
+    border-color: white;
+    padding: 15px 30px 15px 30px;
     cursor: pointer;
   }
 
   .button_apply_now:hover {
-    color: white;
-    background-color: #76202e;
+    color: #76202e;
+    background-color: white;
     transition: 0.1s;
+    box-shadow: 0px 0px 8px white;
   }
 
   img {

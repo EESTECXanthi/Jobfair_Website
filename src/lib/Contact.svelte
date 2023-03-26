@@ -1,113 +1,20 @@
-<script>
+<script lang="ts">
+  import HoContact from "./HOContact.svelte";
+  import Line from "./Line.svelte";
+  import SocialContact from "./SocialContact.svelte";
+  import man_suitcase from "../assets/img/man_suitcase.png";
+  let width: number;
 </script>
 
-<div class="div_section_heading" id="contact">Contact Jobfair</div>
-
-<div class="div_contact_master">
-  <div class="div_contact_left">
-    <!--HO Card-->
-
-    <p class="p_contact_heading">JobFair Head Organizer</p>
-
-    <p class="p_contact_subtitle">Δημήτρης Αναστασούδης</p>
-
-    <hr class="hr_card_underline" style="width: 400px;" />
-
-    <div class="div_contact_line">
-      <img src="src/assets/img/email.png" class="img_icon" alt="Email Icon" />
-
-      <p class="p_contact">dimitrisanastasoudis@gmail.com</p>
-    </div>
-    <!--Email-->
-
-    <div class="div_contact_line">
-      <img src="src/assets/img/phone.png" class="img_icon" alt="Phone Icon" />
-
-      <p class="p_contact">+30 698 828 7864</p>
-    </div>
-    <!--Phone-->
-
-    <div class="div_contact_line">
-      <img
-        src="src/assets/img/linkedin.png"
-        class="img_icon"
-        alt="LinkedIn Icon"
-      />
-
-      <p class="p_contact">Dimitris Anastasoudis</p>
-    </div>
-    <!--LinkedIn-->
+<Line id="contact" name="Contact Jobfair" />
+<div bind:clientWidth={width}>
+  <div class={width > 800 ? "div_contact_master" : ""}>
+    <HoContact />
+    {#if width > 1500}
+      <img class="img_contact" src={man_suitcase} alt="Contact" />
+    {/if}
+    <SocialContact />
   </div>
-  <!--HO Card-->
-
-  <div class="div_contact_middle">
-    <!-- svelte-ignore a11y-img-redundant-alt -->
-    <img
-      class="img_contact"
-      src="src/assets/img/man_suitcase.png"
-      alt="Contact Image"
-    />
-  </div>
-
-  <div class="div_contact_right">
-    <!--Social Media Card-->
-
-    <p class="p_contact_heading">Social Media</p>
-
-    <hr class="hr_card_underline" style="width: 250px;" />
-
-    <div class="div_contact_line">
-      <img
-        src="src/assets/img/website.png"
-        class="img_icon"
-        alt="Website Icon"
-      />
-
-      <p class="p_contact">[URL PENDING]</p>
-    </div>
-    <!--Website-->
-
-    <div class="div_contact_line">
-      <img src="src/assets/img/email.png" class="img_icon" alt="Email Icon" />
-
-      <p class="p_contact">jobfair.eesteclcxanthi@gmail.com</p>
-    </div>
-    <!--Email-->
-
-    <div class="div_contact_line">
-      <img
-        src="src/assets/img/facebook.png"
-        class="img_icon"
-        alt="Facebook Icon"
-      />
-
-      <p class="p_contact">JobFair-EESTEC LC Xanthi</p>
-    </div>
-    <!--Facebook-->
-
-    <div class="div_contact_line">
-      <img
-        src="src/assets/img/instagram.png"
-        class="img_icon"
-        alt="Instagram Icon"
-      />
-
-      <p class="p_contact">@jobfair_xanthi</p>
-    </div>
-    <!--Instagram-->
-
-    <div class="div_contact_line">
-      <img
-        src="src/assets/img/linkedin.png"
-        class="img_icon"
-        alt="LinkedIn Icon"
-      />
-
-      <p class="p_contact">EESTEC LC Xanthi</p>
-    </div>
-    <!--LinkedIn-->
-  </div>
-  <!--Social Media Card-->
 </div>
 
 <style>
@@ -115,109 +22,23 @@
     justify-content: space-around;
     display: flex;
     text-align: center;
-  }
-
-  .div_contact_left {
-    flex: 33.33%;
-    width: 40%;
-    height: 350px;
-    padding: 20px;
-    margin: 0px 2% 50px 10%;
-    justify-content: center;
-    font-family: "Roboto", sans-serif;
+    display: flex;
     text-align: center;
-    border-style: solid;
-    border-color: #76202e;
-    border-radius: 20px;
-    background: #76202e;
+    margin-left: 10%;
+    margin-right: 10%;
   }
 
-  .div_contact_right {
+  .img_contact {
+    width: 80%;
+    max-width: 300px;
+    padding: auto;
     flex: 33.33%;
     width: 40%;
-    height: 350px;
-    padding: 20px;
-    margin: 0px 10% 50px 2%;
-    justify-content: center;
-    font-family: "Roboto", sans-serif;
-    text-align: center;
-    border-style: solid;
-    border-color: #76202e;
-    border-radius: 20px;
-    background: #76202e;
-  }
-
-  .div_contact_middle {
-    flex: 33.33%;
-    width: 40%;
-    height: 350px;
+    /* height: 250px; */
     padding: 20px 0px 20px 0px;
     margin: 0px 0px 50px 0px;
     justify-content: center;
     font-family: "Roboto", sans-serif;
     text-align: center;
-  }
-
-  @media screen {
-    .img_contact {
-      width: 80%;
-      max-width: 300px;
-      padding: auto;
-    }
-  }
-
-  .p_contact_heading {
-    font-size: 40px;
-    font-weight: bold;
-    padding: 10px 10px 0px 10px;
-    background: #76202e;
-    color: white;
-  }
-
-  .p_contact_subtitle {
-    font-size: 30px;
-    padding: 0px 10px 0px 10px;
-    background: #76202e;
-    color: white;
-  }
-
-  .p_contact {
-    font-size: 20px;
-    padding: 5px;
-    background: #76202e;
-    color: white;
-    clear: both;
-    cursor: pointer;
-  }
-
-  .div_contact_line {
-    justify-content: center;
-    display: flex;
-    text-align: center;
-    background: #76202e;
-    padding: 5px;
-  }
-
-  .img_icon {
-    margin: 6px 5px 0px 5px;
-    border: none;
-    width: 20px;
-    height: 20px;
-    clear: both;
-  }
-
-  .hr_card_underline {
-    border-top: 5px white;
-    border-left: none;
-    border-right: none;
-    width: 400px;
-    margin-top: 5px;
-    margin-left: auto;
-    margin-right: auto;
-    color: #76202e;
-    background: #76202e;
-    margin-bottom: 15px;
-    /*Individual adjustments can be
-  found on each card div element*/
   }
 </style>

@@ -1,11 +1,13 @@
 <script lang="ts">
+  import Line from "./Line.svelte";
+
   class Sponsor {
     name: string;
   }
   let sponsors: Sponsor[] = [new Sponsor()];
 </script>
 
-<div class="div_section_heading" id="sponsors">Sponsors</div>
+<Line id={"sponsors"} name={"Sponsors"} />
 
 <style>
 </style>

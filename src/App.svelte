@@ -9,9 +9,9 @@
 
 <Navbar />
 <Home />
-<Line />
+
 <About />
-<Line />
+
 <Sponsors />
-<Line />
+
 <Contact />

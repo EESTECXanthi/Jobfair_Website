@@ -1,19 +1,17 @@
 <script lang="ts">
+  import logo from "../assets/img/combined_logo.png";
   let width;
 </script>
 
 <header class="header_navbar sticky" id="navbar" bind:clientWidth={width}>
-  <img
-    class="img_navbar_logo"
-    src="src/assets/img/combined_logo.png"
-    alt="LC Xanthi Logo + Jobfair Logo"
-  />
+  <img class="img_navbar_logo" src={logo} alt="LC Xanthi Logo + Jobfair Logo" />
 
   <navbar>
     {#if width > 800}
       <ul class="ul_navbar_links">
         <li class="li_navbar_link">
-          <a class="a_navbar_link" href="#home">Home</a>
+          <!-- svelte-ignore a11y-invalid-attribute -->
+          <a class="a_navbar_link" href="#">Home</a>
         </li>
         <li class="li_navbar_link">
           <a class="a_navbar_link" href="#about">About</a>
@@ -41,7 +39,7 @@
   .a_navbar_link {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
-    font-size: 25px;
+    font-size: 30px;
     color: #edf0f1;
     text-decoration: none;
   }

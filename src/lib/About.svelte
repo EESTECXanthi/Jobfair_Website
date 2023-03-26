@@ -1,8 +1,8 @@
-<script>
+<script lang="ts">
+  import Line from "./Line.svelte";
 </script>
 
-<div class="div_section_heading" id="about">About JobFair</div>
-
+<Line id="about" name="About JobFair" />
 <div class="div_about_left">
   <p class="p_about_heading">What is JobFair?</p>
 
@@ -35,18 +35,6 @@
 </div>
 
 <style>
-  .hr_card_underline {
-    border-top: 5px #76202e;
-    border-left: none;
-    border-right: none;
-    margin-top: 5px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 15px;
-    /*Individual adjustments can be
-  found on each card div element*/
-  }
-
   .div_about_left {
     float: left;
     width: 40%;
