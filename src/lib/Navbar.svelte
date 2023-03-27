@@ -1,10 +1,10 @@
 <script lang="ts">
-  import logo from "../assets/img/combined_logo.png";
+  import combined_logo from "../assets/img/combined_logo.png";
   let width;
 </script>
 
 <header class="header_navbar sticky" id="navbar" bind:clientWidth={width}>
-  <img class="img_navbar_logo" src={logo} alt="LC Xanthi Logo + Jobfair Logo" />
+  <img class="img_navbar_logo" src={combined_logo} alt="LC Xanthi Logo + JobFair Logo" />
 
   <navbar>
     {#if width > 800}
@@ -16,9 +16,9 @@
         <li class="li_navbar_link">
           <a class="a_navbar_link" href="#about">About</a>
         </li>
-        <li class="li_navbar_link">
+        <!--<li class="li_navbar_link">
           <a class="a_navbar_link" href="#sponsors">Sponsors</a>
-        </li>
+        </li>-->
         <li class="li_navbar_link">
           <a class="a_navbar_link" href="#contact">Contact</a>
         </li>
@@ -39,7 +39,7 @@
   .a_navbar_link {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
-    font-size: 30px;
+    font-size: 35px;
     color: #edf0f1;
     text-decoration: none;
   }
@@ -79,11 +79,11 @@
     color: #ddaeb5;
   }
 
-  .sticky {
+/*  .sticky {
     position: sticky;
     top: 0;
     width: 100vw;
     z-index: 100;
     height: 12vh;
-  }
+  }*/
 </style>

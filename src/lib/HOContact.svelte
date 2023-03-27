@@ -11,7 +11,7 @@
 
   <p class="p_contact_subtitle">Δημήτρης Αναστασούδης</p>
 
-  <hr class="hr_card_underline" style="width: 400px;" />
+  <hr class="hr_card_underline"/>
 
   <div class="div_contact_line">
     <img src={email_icon} class="img_icon" alt="Email Icon" />
@@ -49,6 +49,7 @@
     border-color: #76202e;
     border-radius: 20px;
     background: #76202e;
+    margin: 0px 2.5vw 0px 5vw;
   }
 
   .p_contact_heading {
@@ -102,7 +103,6 @@
     color: #76202e;
     background: #76202e;
     margin-bottom: 15px;
-    /*Individual adjustments can be
-  found on each card div element*/
+    width: 400px;
   }
 </style>

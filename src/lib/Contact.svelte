@@ -6,7 +6,7 @@
   let width: number;
 </script>
 
-<Line id="contact" name="Contact Jobfair" />
+<Line id="contact" name="Contact JobFair" />
 <div bind:clientWidth={width}>
   <div class={width > 800 ? "div_contact_master" : ""}>
     <HoContact />
@@ -24,8 +24,6 @@
     text-align: center;
     display: flex;
     text-align: center;
-    margin-left: 10%;
-    margin-right: 10%;
   }
 
   .img_contact {
@@ -34,9 +32,8 @@
     padding: auto;
     flex: 33.33%;
     width: 40%;
-    /* height: 250px; */
     padding: 20px 0px 20px 0px;
-    margin: 0px 0px 50px 0px;
+    margin: 0px 20px 50px 20px;
     justify-content: center;
     font-family: "Roboto", sans-serif;
     text-align: center;

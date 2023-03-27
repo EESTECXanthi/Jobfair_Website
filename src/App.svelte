@@ -9,9 +9,5 @@
 
 <Navbar />
 <Home />
-
 <About />
-
-<Sponsors />
-
 <Contact />

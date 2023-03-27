@@ -2,12 +2,12 @@
   import { Splide, SplideSlide, SplideTrack } from "@splidejs/svelte-splide";
   import "@splidejs/svelte-splide/css";
   import ProgressBar from "./ProgressBar.svelte";
-  import image1 from "../assets/img/photo001.png";
-  import image2 from "../assets/img/photo002.png";
-  import image3 from "../assets/img/photo003.png";
-  import image4 from "../assets/img/photo004.png";
-  import image5 from "../assets/img/photo005.png";
-  import image6 from "../assets/img/photo006.png";
+  import photo001 from "../assets/img/photo001.png";
+  import photo002 from "../assets/img/photo002.png";
+  import photo003 from "../assets/img/photo003.png";
+  import photo004 from "../assets/img/photo004.png";
+  import photo005 from "../assets/img/photo005.png";
+  import photo006 from "../assets/img/photo006.png";
 
   const options = {
     rewind: true,
@@ -24,38 +24,42 @@
   };
 </script>
 
-<div class="center">
-  <div class="card">
-    <div class="div_top_section_heading" id="home">
-      Jobfair 2023 | Find Your Path
+
+<div class="div_card">
+
+    <div class="div_card_text" id="home">
+      JobFair 2023 | Find Your Path
     </div>
 
-    <div class="div_button_container">
+    <div class="div_card_button">
       <button class="button_apply_now">Apply now</button>
     </div>
-  </div>
+
 </div>
 
+
+<div class="div_splide_container">
 <Splide {options} on:autoplayPlaying={slider}>
   <SplideSlide>
-    <img src={image1} alt="1" />
+    <img src={photo001} alt="1" />
   </SplideSlide>
   <SplideSlide>
-    <img src={image2} alt=" 2" />
+    <img src={photo002} alt="2" />
   </SplideSlide>
   <SplideSlide>
-    <img src={image3} alt=" 3" />
+    <img src={photo003} alt="3" />
   </SplideSlide>
   <SplideSlide>
-    <img src={image4} alt="4" />
+    <img src={photo004} alt="4" />
   </SplideSlide>
   <SplideSlide>
-    <img src={image5} alt="5" />
+    <img src={photo005} alt="5" />
   </SplideSlide>
   <SplideSlide>
-    <img src={image6} alt="6" />
+    <img src={photo006} alt="6" />
   </SplideSlide>
 </Splide>
+</div>
 
 <div class="splide__progress">
   <div class="splide__progress__bar" />
@@ -65,36 +69,41 @@
 
 <!-- </div> -->
 <style>
-  .center {
-    display: flex;
-    justify-content: center;
+  .div_splide_container{
+    width: 80vw;
+    padding: 5vh 0px 10vh 0px;
+    margin-left: auto;
+    margin-right:auto;
   }
 
-  .card {
+  .div_card {
+    display: flex;
+    justify-content: space-around;
     background-color: #76202e;
     border-radius: 30px;
     border-color: white;
     padding: 2vw;
     border-style: solid;
-    margin: auto;
+    margin: 0px 20vw 0px 20vw;
     position: absolute;
-    top: 70vh;
+    top: 85vh;
+    left: 0;
+    right: 0;
     z-index: 99;
     box-shadow: 15px 15px 5px 3px rgba(54, 14, 14, 0.2);
   }
 
-  .div_top_section_heading {
-    justify-content: center;
+  .div_card_text {
     text-align: center;
     font-family: "Roboto", sans-serif;
     font-weight: bold;
-    font-size: 50px;
+    font-size:50px;
     color: white;
-    padding: 0px 0px 2vw 0px;
+    margin-top: auto;
+    margin-bottom: auto;
   }
 
-  .div_button_container {
-    justify-content: center;
+  .div_card_button {
     text-align: center;
     font-family: "Roboto", sans-serif;
     font-weight: bold;
@@ -121,10 +130,11 @@
   }
 
   img {
-    width: 100vw;
+    width: 80vw;
     max-height: 87vh;
     min-height: 88vh;
     object-fit: cover;
+    border-radius: 30px;
   }
 
   .splide__progress__bar {

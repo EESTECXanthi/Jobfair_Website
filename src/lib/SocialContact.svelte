@@ -11,7 +11,7 @@
 
   <p class="p_contact_heading">Social Media</p>
 
-  <hr class="hr_card_underline" style="width: 250px;" />
+  <hr class="hr_card_underline" />
 
   <div class="div_contact_line">
     <img src={website_icon} class="img_icon" alt="Website Icon" />
@@ -56,7 +56,6 @@
     /* width: 40%; */
     height: 350px;
     padding: 20px;
-    /* margin: 0px 10% 50px 2%; */
     justify-content: center;
     font-family: "Roboto", sans-serif;
     text-align: center;
@@ -64,6 +63,7 @@
     border-color: #76202e;
     border-radius: 20px;
     background: #76202e;
+    margin: 0px 5vw 0px 2.5vw;
   }
 
   .p_contact_heading {
@@ -110,7 +110,6 @@
     color: #76202e;
     background: #76202e;
     margin-bottom: 15px;
-    /*Individual adjustments can be
-  found on each card div element*/
+    width: 250px;
   }
 </style>
