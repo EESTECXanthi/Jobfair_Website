@@ -64,6 +64,7 @@
     border-radius: 20px;
     background: #76202e;
     margin: 0px 5vw 0px 2.5vw;
+    box-shadow: 15px 15px 5px 3px rgba(53, 7, 14, 0.2);
   }
 
   .p_contact_heading {

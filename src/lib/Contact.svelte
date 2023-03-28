@@ -1,7 +1,7 @@
 <script lang="ts">
-  import HoContact from "./HOContact.svelte";
+  import Contact_HO from "./Contact_HO.svelte";
   import Line from "./Line.svelte";
-  import SocialContact from "./SocialContact.svelte";
+  import Contact_Social from "./Contact_Social.svelte";
   import man_suitcase from "../assets/img/man_suitcase.png";
   let width: number;
 </script>
@@ -9,11 +9,11 @@
 <Line id="contact" name="Contact JobFair" />
 <div bind:clientWidth={width}>
   <div class={width > 800 ? "div_contact_master" : ""}>
-    <HoContact />
+    <Contact_HO />
     {#if width > 1500}
       <img class="img_contact" src={man_suitcase} alt="Contact" />
     {/if}
-    <SocialContact />
+    <Contact_Social />
   </div>
 </div>
 

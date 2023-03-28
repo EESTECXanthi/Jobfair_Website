@@ -4,83 +4,68 @@
   import linkedin_icon from "../assets/img/linkedin.png";
 </script>
 
-<div class="div_contact_left">
+<div class="div_about_card">
   <!--HO Card-->
 
-  <p class="p_contact_heading">JobFair Head Organizer</p>
-
-  <p class="p_contact_subtitle">Δημήτρης Αναστασούδης</p>
+  <p class="p_about_heading">What is JobFair?</p>
 
   <hr class="hr_card_underline"/>
 
-  <div class="div_contact_line">
+  <div class="div_about_line">
     <img src={email_icon} class="img_icon" alt="Email Icon" />
-
-    <p class="p_contact">dimitrisanastasoudis@gmail.com</p>
+    <p class="p_about">[Placeholder]</p>
   </div>
-  <!--Email-->
 
-  <div class="div_contact_line">
+  <div class="div_about_line">
     <img src={phone_icon} class="img_icon" alt="Phone Icon" />
-
-    <p class="p_contact">+30 698 828 7864</p>
+    <p class="p_about">[Placeholder]</p>
   </div>
-  <!--Phone-->
 
-  <div class="div_contact_line">
+  <div class="div_about_line">
     <img src={linkedin_icon} class="img_icon" alt="LinkedIn Icon" />
-
-    <p class="p_contact">Dimitris Anastasoudis</p>
+    <p class="p_about">[Placeholder]</p>
   </div>
-  <!--LinkedIn-->
+
 </div>
 
 <style>
-  .div_contact_left {
+  .div_about_card {
     flex: 33.33%;
-    /* width: 40%; */
     height: 350px;
     padding: 20px;
-    /* margin: 0px 2% 50px 10%; */
     justify-content: center;
     font-family: "Roboto", sans-serif;
     text-align: center;
     border-style: solid;
     border-color: #76202e;
     border-radius: 20px;
-    background: #76202e;
+    background: #fff1f3;
     margin: 0px 2.5vw 0px 5vw;
+    box-shadow: 15px 15px 5px 3px rgba(53, 7, 14, 0.2);
   }
 
-  .p_contact_heading {
+  .p_about_heading {
     font-size: 40px;
     font-weight: bold;
     padding: 10px 10px 0px 10px;
-    background: #76202e;
-    color: white;
+    background: #fff1f3;
+    color: black;
   }
 
-  .p_contact_subtitle {
-    font-size: 30px;
-    padding: 0px 10px 0px 10px;
-    background: #76202e;
-    color: white;
-  }
-
-  .p_contact {
+  .p_about {
     font-size: 20px;
     padding: 5px;
-    background: #76202e;
-    color: white;
+    background: #fff1f3;
+    color: black;
     clear: both;
     cursor: pointer;
   }
 
-  .div_contact_line {
+  .div_about_line {
     justify-content: center;
     display: flex;
     text-align: center;
-    background: #76202e;
+    background: #fff1f3;
     padding: 5px;
   }
 
@@ -93,16 +78,11 @@
   }
 
   .hr_card_underline {
-    border-top: 5px white;
+    border-top: 1px solid black;
     border-left: none;
     border-right: none;
     width: 400px;
-    margin-top: 5px;
-    margin-left: auto;
-    margin-right: auto;
-    color: #76202e;
-    background: #76202e;
-    margin-bottom: 15px;
-    width: 400px;
+    margin: 5px auto 15px auto;
+    width: 300px;
   }
 </style>

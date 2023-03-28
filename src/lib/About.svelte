@@ -1,85 +1,41 @@
 <script lang="ts">
+  import About_WhatIs from "./About_WhatIs.svelte";
   import Line from "./Line.svelte";
+  import About_EventInfo from "./About_EventInfo.svelte";
+  import jobfair_j from "../assets/img/jobfair_j_small.png";
+  let width: number;
 </script>
 
 <Line id="about" name="About JobFair" />
-<div class="div_about_left">
-  <p class="p_about_heading">What is JobFair?</p>
-
-  <p class="p_about_small">&#183 Διημερίδα επαγγελματικού προσανατολισμού.</p>
-
-  <p class="p_about_small">
-    &#183 Απευθύνεται σε φοιτητές πολυτεχνικών σχολών.
-  </p>
-
-  <p class="p_about_small">
-    &#183 Αποτελεί τον συνδετικό κρίκο μεταξύ φοιτητών και εταιριών.
-  </p>
-
-  <p class="p_about_small">
-    &#183 Προσφέρει: γνωριμίες, κίνητρο, εργασιακές ευκαιρίες και μια γενικότερη
-    εικόνα του εργασιακού τομέα.
-  </p>
-</div>
-
-<div class="div_about_right">
-  <p class="p_about_heading">Event Information</p>
-
-  <p class="p_about_big">&#183 6-7 Μαΐου</p>
-
-  <p class="p_about_big">&#183 ΔΠΘ Ξάνθη, Κτίριο ΗΜΜΥ</p>
-
-  <p class="p_about_big">&#183 Placeholder text</p>
-
-  <p class="p_about_big">&#183 Placeholder text</p>
+<div bind:clientWidth={width}>
+  <div class={width > 800 ? "div_contact_master" : ""}>
+    <About_WhatIs />
+    {#if width > 1500}
+      <img class="img_contact" src={jobfair_j} alt="About" />
+    {/if}
+    <About_EventInfo />
+  </div>
 </div>
 
 <style>
-  .div_about_left {
-    float: left;
+  .div_contact_master {
+    justify-content: space-around;
+    display: flex;
+    text-align: center;
+    display: flex;
+    text-align: center;
+  }
+
+  .img_contact {
+    width: 80%;
+    max-width: 300px;
+    padding: auto;
+    flex: 33.33%;
     width: 40%;
-    height: 300px;
-    padding: 20px;
-    margin: 0px 5% 50px 5%;
+    padding: 20px 0px 20px 0px;
+    margin: 0px 20px 50px 20px;
     justify-content: center;
     font-family: "Roboto", sans-serif;
     text-align: center;
-    border-style: solid;
-    border-color: #76202e;
-    border-radius: 20px;
-  }
-
-  .div_about_right {
-    float: right;
-    width: 40%;
-    height: 300px;
-    padding: 20px;
-    margin: 0px 5% 50px 5%;
-    justify-content: center;
-    font-family: "Roboto", sans-serif;
-    text-align: center;
-    border-style: solid;
-    border-color: #76202e;
-    border-radius: 20px;
-  }
-
-  .p_about_heading {
-    font-size: 40px;
-    font-weight: bold;
-    padding: 10px 10px 20px 10px;
-  }
-
-  .p_about_big {
-    font-size: 25px;
-    padding: 5px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .p_about_small {
-    font-size: 20px;
-    padding: 5px;
-    margin-left: auto;
-    margin-right: auto;
   }
 </style>
