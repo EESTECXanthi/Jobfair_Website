@@ -16,17 +16,27 @@
 
     <div class="div_contact_line">
       <img src={email_icon} class="img_icon" alt="Email Icon" />
-      <p class="p_contact">dimitrisanastasoudis@gmail.com</p>
+      <p class="p_contact">
+        <a href="mailto:dimitrisanastasoudis@gmail.com" target="_blank">
+          dimitrisanastasoudis@gmail.com
+        </a>
+      </p>
    </div>
 
    <div class="div_contact_line">
       <img src={phone_icon} class="img_icon" alt="Phone Icon" />
-      <p class="p_contact">+30 698 828 7864</p>
+      <p class="p_contact">
+        +30 698 828 7864
+      </p>
     </div>
 
     <div class="div_contact_line">
       <img src={linkedin_icon} class="img_icon" alt="LinkedIn Icon" />
-      <p class="p_contact">Dimitris Anastasoudis</p>
+      <p class="p_contact"> 
+        <a href="https://linkedin.com/in/dimitris-anastasoudis-aa769922a/" target="_blank">
+          Dimitris Anastasoudis
+        </a>
+      </p>
     </div>
 
   </div>
@@ -34,6 +44,10 @@
 </div>
 
 <style>
+  a{
+    color: white;
+  }
+
   .div_contact_card {
     flex: 33.33%;
     height: 350px;
@@ -86,7 +100,7 @@
   }
 
   .img_icon {
-    margin: 6px 5px 0px 5px;
+    margin: 7px 5px 0px 5px;
     border: none;
     width: 20px;
     height: 20px;

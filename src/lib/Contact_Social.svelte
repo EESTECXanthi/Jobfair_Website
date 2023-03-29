@@ -5,9 +5,9 @@
   import linkedin_icon from "../assets/img/linkedin.png";
   import website_icon from "../assets/img/website.png";
 </script>
+<!-- svelte-ignore a11y-invalid-attribute -->
 
 <div class="div_contact_right">
-  <!--Social Media Card-->
 
   <p class="p_contact_heading">Social Media</p>
 
@@ -15,45 +15,38 @@
 
   <div class="div_contact_line">
     <img src={website_icon} class="img_icon" alt="Website Icon" />
-
-    <p class="p_contact">[URL PENDING]</p>
+    <p class="p_contact"><a href="#">eestec.ee.duth.gr</a></p>
   </div>
-  <!--Website-->
 
   <div class="div_contact_line">
     <img src={email_icon} class="img_icon" alt="Email Icon" />
-
-    <p class="p_contact">jobfair.eesteclcxanthi@gmail.com</p>
+    <p class="p_contact"><a href="mailto:jobfair.eesteclcxanthi@gmail.com" target="_blank">jobfair.eesteclcxanthi@gmail.com</a></p>
   </div>
-  <!--Email-->
 
   <div class="div_contact_line">
     <img src={facebook_icon} class="img_icon" alt="Facebook Icon" />
-
-    <p class="p_contact">JobFair-EESTEC LC Xanthi</p>
+    <p class="p_contact"><a href="https://facebook.com/jobfairlcxanthi/" target="_blank">JobFair-EESTEC LC Xanthi</a></p>
   </div>
-  <!--Facebook-->
 
   <div class="div_contact_line">
     <img src={instagram_icon} class="img_icon" alt="Instagram Icon" />
-
-    <p class="p_contact">@jobfair_xanthi</p>
+    <p class="p_contact"><a href="https://instagram.com/jobfair_xanthi/" target="_blank">@jobfair_xanthi</a></p>
   </div>
-  <!--Instagram-->
 
   <div class="div_contact_line">
     <img src={linkedin_icon} class="img_icon" alt="LinkedIn Icon" />
-
-    <p class="p_contact">EESTEC LC Xanthi</p>
+    <p class="p_contact"><a href="https://linkedin.com/company/eesteclcxanthi/" target="_blank">EESTEC LC Xanthi</a></p>
   </div>
-  <!--LinkedIn-->
+
 </div>
 
-<!--Social Media Card-->
 <style>
+  a{
+    color: white;
+  }
+
   .div_contact_right {
     flex: 33.33%;
-    /* width: 40%; */
     height: 350px;
     padding: 20px;
     justify-content: center;
@@ -93,7 +86,7 @@
   }
 
   .img_icon {
-    margin: 6px 5px 0px 5px;
+    margin: 7px 5px 0px 5px;
     border: none;
     width: 20px;
     height: 20px;

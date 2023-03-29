@@ -2,15 +2,16 @@
   import combined_logo from "../assets/img/combined_logo.png";
   let width;
 </script>
+<!-- svelte-ignore a11y-invalid-attribute -->
+
 
 <header class="header_navbar sticky" id="navbar" bind:clientWidth={width}>
   <img class="img_navbar_logo" src={combined_logo} alt="LC Xanthi Logo + JobFair Logo" />
 
   <navbar>
-    {#if width > 800}
+    {#if width > 920}
       <ul class="ul_navbar_links">
         <li class="li_navbar_link">
-          <!-- svelte-ignore a11y-invalid-attribute -->
           <a class="a_navbar_link" href="#">Home</a>
         </li>
         <li class="li_navbar_link">

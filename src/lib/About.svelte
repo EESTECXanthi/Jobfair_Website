@@ -8,7 +8,7 @@
 
 <Line id="about" name="About JobFair" />
 <div bind:clientWidth={width}>
-  <div class={width > 800 ? "div_contact_master" : ""}>
+  <div class={width > 720 ? "div_contact_master" : ""}>
     <About_WhatIs />
     {#if width > 1500}
       <img class="img_contact" src={jobfair_j} alt="About" />
