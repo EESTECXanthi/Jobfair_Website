@@ -28,7 +28,7 @@
     border: none;
     border-top: 2px solid black;
     margin: 0px auto 50px auto;
-    width: 20vw;
+    width: 350px;
   }
 
   .div_section_heading {

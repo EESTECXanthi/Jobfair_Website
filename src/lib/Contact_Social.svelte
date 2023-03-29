@@ -7,7 +7,7 @@
 </script>
 <!-- svelte-ignore a11y-invalid-attribute -->
 
-<div class="div_contact_right">
+<div class="div_contact_card">
 
   <p class="p_contact_heading">Social Media</p>
 
@@ -45,7 +45,7 @@
     color: white;
   }
 
-  .div_contact_right {
+  .div_contact_card {
     flex: 33.33%;
     height: 350px;
     padding: 20px;
@@ -56,7 +56,7 @@
     border-color: #76202e;
     border-radius: 20px;
     background: #76202e;
-    margin: 0px 5vw 0px 2.5vw;
+    margin: 0px 5vw 50px 2.5vw;
     box-shadow: 15px 15px 5px 3px rgba(53, 7, 14, 0.2);
   }
 
@@ -104,6 +104,6 @@
     color: #76202e;
     background: #76202e;
     margin-bottom: 15px;
-    width: 250px;
+    width: 40%;
   }
 </style>

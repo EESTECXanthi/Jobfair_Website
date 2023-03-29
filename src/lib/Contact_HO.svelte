@@ -59,7 +59,7 @@
     border-color: #76202e;
     border-radius: 20px;
     background: #76202e;
-    margin: 0px 2.5vw 0px 5vw;
+    margin: 0px 2.5vw 50px 5vw;
     box-shadow: 15px 15px 5px 3px rgba(53, 7, 14, 0.2);
   }
 
@@ -115,6 +115,6 @@
     margin: 5px auto 15px auto;
     color: #76202e;
     background: #76202e;
-    width: 400px;
+    width: 40%;
   }
 </style>

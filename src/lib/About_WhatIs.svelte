@@ -1,28 +1,21 @@
 <script lang="ts">
-  import email_icon from "../assets/img/email.png";
-  import phone_icon from "../assets/img/phone.png";
-  import linkedin_icon from "../assets/img/linkedin.png";
 </script>
 
 <div class="div_about_card">
-  <!--HO Card-->
 
   <p class="p_about_heading">What is JobFair?</p>
 
   <hr class="hr_card_underline"/>
 
   <div class="div_about_line">
-    <img src={email_icon} class="img_icon" alt="Email Icon" />
     <p class="p_about">[Placeholder]</p>
   </div>
 
   <div class="div_about_line">
-    <img src={phone_icon} class="img_icon" alt="Phone Icon" />
     <p class="p_about">[Placeholder]</p>
   </div>
 
   <div class="div_about_line">
-    <img src={linkedin_icon} class="img_icon" alt="LinkedIn Icon" />
     <p class="p_about">[Placeholder]</p>
   </div>
 
@@ -40,7 +33,7 @@
     border-color: #76202e;
     border-radius: 20px;
     background: #fff1f3;
-    margin: 0px 2.5vw 0px 5vw;
+    margin: 0px 2.5vw 50px 5vw;
     box-shadow: 15px 15px 5px 3px rgba(53, 7, 14, 0.2);
   }
 
@@ -69,20 +62,12 @@
     padding: 5px;
   }
 
-  .img_icon {
-    margin: 6px 5px 0px 5px;
-    border: none;
-    width: 20px;
-    height: 20px;
-    clear: both;
-  }
-
   .hr_card_underline {
     border-top: 1px solid black;
     border-left: none;
     border-right: none;
     width: 400px;
     margin: 5px auto 15px auto;
-    width: 300px;
+    width: 40%;
   }
 </style>

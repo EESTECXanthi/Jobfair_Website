@@ -1,13 +1,10 @@
 <script lang="ts">
-  import location_icon from "../assets/img/location.png";
   import calendar_icon from "../assets/img/calendar.png";
-  import facebook_icon from "../assets/img/facebook.png";
-  import instagram_icon from "../assets/img/instagram.png";
-  import linkedin_icon from "../assets/img/linkedin.png";
+  import location_icon from "../assets/img/location.png";
+  import building_icon from "../assets/img/building.png";
 </script>
 
 <div class="div_about_card">
-  <!--Social Media Card-->
 
   <p class="p_about_heading">Event Information</p>
 
@@ -15,17 +12,21 @@
 
   <div class="div_about_line">
     <img src={calendar_icon} class="img_icon" alt="Calendar Icon" />
-    <p class="p_about">6-7 Μαΐου</p>
+    <p class="p_about">6-7 Μαΐου 2023</p>
   </div>
 
   <div class="div_about_line">
     <img src={location_icon} class="img_icon" alt="Location Icon" />
+    <p class="p_about">Πανεπιστημιούπολη Ξάνθης</p>
+  </div>
+
+  <div class="div_about_line">
+    <img src={building_icon} class="img_icon" alt="Location Icon" />
     <p class="p_about">Κτίριο ΗΜΜΥ</p>
   </div>
 
 </div>
 
-<!--Social Media Card-->
 <style>
   .div_about_card {
     flex: 33.33%;
@@ -38,7 +39,7 @@
     border-color: #76202e;
     border-radius: 20px;
     background: #fff1f3;
-    margin: 0px 2.5vw 0px 5vw;
+    margin: 0px 2.5vw 50px 5vw;
     box-shadow: 15px 15px 5px 3px rgba(53, 7, 14, 0.2);
   }
 
@@ -51,7 +52,7 @@
   }
 
   .p_about {
-    font-size: 20px;
+    font-size: 30px;
     padding: 5px;
     background: #fff1f3;
     color: black;
@@ -68,10 +69,10 @@
   }
 
   .img_icon {
-    margin: 6px 5px 0px 5px;
+    margin: 7px 5px 0px 5px;
     border: none;
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
     clear: both;
   }
 
@@ -81,6 +82,6 @@
     border-right: none;
     width: 400px;
     margin: 5px auto 15px auto;
-    width: 350px;
+    width: 40%;
   }
 </style>
