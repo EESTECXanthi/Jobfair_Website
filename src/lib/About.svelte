@@ -1,5 +1,6 @@
 <script lang="ts">
   import About_WhatIs from "./About_WhatIs.svelte";
+  import About_Decoration from "./About_Decoration.svelte";
   import About_EventInfo from "./About_EventInfo.svelte";
   import Line from "./Line.svelte";
   import jobfair_j from "../assets/img/decorations/jobfair_j_flat.png";
@@ -7,35 +8,21 @@
 </script>
 
 <Line id="about" name="About JobFair" />
+
 <div bind:clientWidth={width}>
-  <div class={width > 720 ? "div_contact_master" : ""}>
+  <div class={width > 720 ? "div_about_master" : ""}>
     <About_WhatIs />
-    {#if width > 1500}
-      <img class="img_contact" src={jobfair_j} alt="About" />
-    {/if}
+    {#if width > 1500}<About_Decoration />{/if}
     <About_EventInfo />
   </div>
 </div>
 
 <style>
-  .div_contact_master {
+  .div_about_master {
     justify-content: space-around;
     display: flex;
     text-align: center;
     display: flex;
-    text-align: center;
-  }
-
-  .img_contact {
-    width: 80%;
-    max-width: 300px;
-    padding: auto;
-    flex: 33.33%;
-    width: 40%;
-    padding: 20px 0px 20px 0px;
-    margin: 0px 20px 50px 20px;
-    justify-content: center;
-    font-family: "Roboto", sans-serif;
     text-align: center;
   }
 </style>

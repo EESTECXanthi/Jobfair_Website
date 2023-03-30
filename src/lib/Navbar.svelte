@@ -40,7 +40,7 @@
   .a_navbar_link {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
-    font-size: 35px;
+    font-size: 30px;
     color: #edf0f1;
     text-decoration: none;
   }
@@ -54,7 +54,7 @@
   }
 
   .img_navbar_logo {
-    width: 300px;
+    width: 250px;
     cursor: pointer;
     background-color: #76202e;
   }

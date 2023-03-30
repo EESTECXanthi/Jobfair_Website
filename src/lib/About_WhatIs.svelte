@@ -23,7 +23,7 @@
 
 <style>
   .div_about_card {
-    flex: 33.33%;
+    flex: 30%;
     height: 350px;
     padding: 20px;
     justify-content: center;
