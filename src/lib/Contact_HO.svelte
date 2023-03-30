@@ -1,7 +1,7 @@
 <script lang="ts">
-  import email_icon from "../assets/img/email.png";
-  import phone_icon from "../assets/img/phone.png";
-  import linkedin_icon from "../assets/img/linkedin.png";
+  import email_icon from "../assets/img/icons/email.png";
+  import phone_icon from "../assets/img/icons/phone.png";
+  import linkedin_icon from "../assets/img/icons/linkedin.png";
 </script>
 
 <div class="div_contact_card">
@@ -12,6 +12,7 @@
   <hr class="hr_card_underline" />
 
   <div class="div_contact_line_container">
+
     <div class="div_contact_line">
       <img src={email_icon} class="img_icon" alt="Email Icon" />
       <p class="p_contact">
@@ -24,22 +25,23 @@
     <div class="div_contact_line">
       <img src={phone_icon} class="img_icon" alt="Phone Icon" />
       <p class="p_contact">
-        <a href="tel:+306988287864">+30 698 828 7864</a>
+        <a href="tel:+306988287864" target="_blank">
+          +30 698 828 7864
+        </a>
       </p>
     </div>
 
     <div class="div_contact_line">
       <img src={linkedin_icon} class="img_icon" alt="LinkedIn Icon" />
       <p class="p_contact">
-        <a
-          href="https://linkedin.com/in/dimitris-anastasoudis-aa769922a/"
-          target="_blank"
-        >
+        <a href="https://linkedin.com/in/dimitris-anastasoudis-aa769922a/" target="_blank">
           Dimitris Anastasoudis
         </a>
       </p>
     </div>
+
   </div>
+
 </div>
 
 <style>

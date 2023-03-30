@@ -1,8 +1,8 @@
 <script lang="ts">
   import Contact_HO from "./Contact_HO.svelte";
-  import Line from "./Line.svelte";
   import Contact_Social from "./Contact_Social.svelte";
-  import man_suitcase from "../assets/img/man_suitcase.png";
+  import Line from "./Line.svelte";
+  import man_suitcase from "../assets/img/decorations/man_suitcase.png";
   let width: number;
 </script>
 

@@ -1,8 +1,8 @@
 <script lang="ts">
   import About_WhatIs from "./About_WhatIs.svelte";
-  import Line from "./Line.svelte";
   import About_EventInfo from "./About_EventInfo.svelte";
-  import jobfair_j from "../assets/img/jobfair_j_small.png";
+  import Line from "./Line.svelte";
+  import jobfair_j from "../assets/img/decorations/jobfair_j_flat.png";
   let width: number;
 </script>
 

@@ -51,7 +51,6 @@
     background: #fff1f3;
     color: black;
     clear: both;
-    cursor: pointer;
   }
 
   .div_about_line {

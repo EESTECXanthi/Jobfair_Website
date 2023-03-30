@@ -1,9 +1,9 @@
 <script lang="ts">
-  import email_icon from "../assets/img/email.png";
-  import facebook_icon from "../assets/img/facebook.png";
-  import instagram_icon from "../assets/img/instagram.png";
-  import linkedin_icon from "../assets/img/linkedin.png";
-  import website_icon from "../assets/img/website.png";
+  import email_icon from "../assets/img/icons/email.png";
+  import facebook_icon from "../assets/img/icons/facebook.png";
+  import instagram_icon from "../assets/img/icons/instagram.png";
+  import linkedin_icon from "../assets/img/icons/linkedin.png";
+  import website_icon from "../assets/img/icons/website.png";
 </script>
 <!-- svelte-ignore a11y-invalid-attribute -->
 

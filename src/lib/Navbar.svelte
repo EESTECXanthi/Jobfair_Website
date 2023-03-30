@@ -1,5 +1,5 @@
 <script lang="ts">
-  import combined_logo from "../assets/img/combined_logo.png";
+  import combined_logo from "../assets/img/logos/combined_logo.png";
   let width;
 </script>
 <!-- svelte-ignore a11y-invalid-attribute -->

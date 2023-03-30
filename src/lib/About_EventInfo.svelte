@@ -1,7 +1,7 @@
 <script lang="ts">
-  import calendar_icon from "../assets/img/calendar.png";
-  import location_icon from "../assets/img/location.png";
-  import building_icon from "../assets/img/building.png";
+  import calendar_icon from "../assets/img/icons/calendar.png";
+  import location_icon from "../assets/img/icons/location.png";
+  import building_icon from "../assets/img/icons/building.png";
 </script>
 
 <div class="div_about_card">
@@ -57,7 +57,6 @@
     background: #fff1f3;
     color: black;
     clear: both;
-    cursor: pointer;
   }
 
   .div_about_line {

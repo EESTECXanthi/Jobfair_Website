@@ -1,22 +1,19 @@
 <script lang="ts">
   import { Splide, SplideSlide, SplideTrack } from "@splidejs/svelte-splide";
   import "@splidejs/svelte-splide/css";
-  import ProgressBar from "./ProgressBar.svelte";
-  import photo001 from "../assets/img/photo001.png";
-  import photo002 from "../assets/img/photo002.png";
-  import photo003 from "../assets/img/photo003.png";
-  import photo004 from "../assets/img/photo004.png";
-  import photo005 from "../assets/img/photo005.png";
-  import photo006 from "../assets/img/photo006.png";
+  import photo001 from "../assets/img/photos/photo001.png";
+  import photo002 from "../assets/img/photos/photo002.png";
+  import photo003 from "../assets/img/photos/photo003.png";
+  import photo004 from "../assets/img/photos/photo004.png";
+  import photo005 from "../assets/img/photos/photo005.png";
+  import photo006 from "../assets/img/photos/photo006.png";
 
   const options = {
     rewind: true,
     gap: "1rem",
     autoplay: true,
     arrows: true,
-    // pauseOnHover: true,
     height: "90vh",
-    // height: "15rem",
   };
 
   const slider = (e) => {
@@ -24,54 +21,34 @@
   };
 </script>
 
-
 <div class="div_card">
 
-    <div class="div_card_text" id="home">
-      JobFair 2023 | Find Your Path
-    </div>
+  <div class="div_card_text" id="home">
+    JobFair 2023 | Find Your Path
+  </div>
 
-    <div class="div_card_button">
-      <button class="button_apply_now">Apply now</button>
-    </div>
+  <div class="div_card_button">
+    <button class="button_apply_now">Apply now</button>
+  </div>
 
 </div>
 
 
 <div class="div_splide_container">
-<Splide {options} on:autoplayPlaying={slider}>
-  <SplideSlide>
-    <img src={photo001} alt="1" />
-  </SplideSlide>
-  <SplideSlide>
-    <img src={photo002} alt="2" />
-  </SplideSlide>
-  <SplideSlide>
-    <img src={photo003} alt="3" />
-  </SplideSlide>
-  <SplideSlide>
-    <img src={photo004} alt="4" />
-  </SplideSlide>
-  <SplideSlide>
-    <img src={photo005} alt="5" />
-  </SplideSlide>
-  <SplideSlide>
-    <img src={photo006} alt="6" />
-  </SplideSlide>
-</Splide>
+  <Splide {options} class="test" on:autoplayPlaying={slider}>
+    <SplideSlide><img src={photo001} alt="1" /></SplideSlide>
+    <SplideSlide><img src={photo002} alt="2" /></SplideSlide>
+    <SplideSlide><img src={photo003} alt="3" /></SplideSlide>
+    <SplideSlide><img src={photo004} alt="4" /></SplideSlide>
+    <SplideSlide><img src={photo005} alt="5" /></SplideSlide>
+    <SplideSlide><img src={photo006} alt="6" /></SplideSlide>
+  </Splide>
 </div>
 
-<div class="splide__progress">
-  <div class="splide__progress__bar" />
-</div>
-
-<!-- <ProgressBar /> -->
-
-<!-- </div> -->
 <style>
   .div_splide_container{
     width: 80vw;
-    padding: 5vh 0px 10vh 0px;
+    padding: 5vh 0px 0px 0px;
     margin-left: auto;
     margin-right:auto;
   }
@@ -137,8 +114,4 @@
     border-radius: 30px;
   }
 
-  .splide__progress__bar {
-    height: 3px !important;
-    background: #00ff00 !important;
-  }
 </style>
