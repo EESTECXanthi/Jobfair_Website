@@ -5,15 +5,13 @@
 </script>
 
 <div class="div_contact_card">
-
   <p class="p_contact_heading">JobFair Head Organizer</p>
 
   <p class="p_contact_subtitle">Δημήτρης Αναστασούδης</p>
 
-  <hr class="hr_card_underline"/>
+  <hr class="hr_card_underline" />
 
   <div class="div_contact_line_container">
-
     <div class="div_contact_line">
       <img src={email_icon} class="img_icon" alt="Email Icon" />
       <p class="p_contact">
@@ -21,30 +19,31 @@
           dimitrisanastasoudis@gmail.com
         </a>
       </p>
-   </div>
+    </div>
 
-   <div class="div_contact_line">
+    <div class="div_contact_line">
       <img src={phone_icon} class="img_icon" alt="Phone Icon" />
       <p class="p_contact">
-        +30 698 828 7864
+        <a href="tel:+306988287864">+30 698 828 7864</a>
       </p>
     </div>
 
     <div class="div_contact_line">
       <img src={linkedin_icon} class="img_icon" alt="LinkedIn Icon" />
-      <p class="p_contact"> 
-        <a href="https://linkedin.com/in/dimitris-anastasoudis-aa769922a/" target="_blank">
+      <p class="p_contact">
+        <a
+          href="https://linkedin.com/in/dimitris-anastasoudis-aa769922a/"
+          target="_blank"
+        >
           Dimitris Anastasoudis
         </a>
       </p>
     </div>
-
   </div>
-
 </div>
 
 <style>
-  a{
+  a {
     color: white;
   }
 
@@ -87,7 +86,7 @@
     cursor: pointer;
   }
 
-  .div_contact_line_container{
+  .div_contact_line_container {
     margin: auto;
   }
 
