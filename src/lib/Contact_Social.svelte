@@ -7,7 +7,7 @@
 </script>
 <!-- svelte-ignore a11y-invalid-attribute -->
 
-<div class="div_contact_card">
+<div class="div_contact_card global_div_card">
 
   <p class="p_contact_heading">Social Media</p>
 
@@ -46,19 +46,11 @@
   }
 
   .div_contact_card {
+    min-width: 560px;
     flex: 30%;
-    width: 80vw;
-    height: 350px;
-    padding: 20px;
-    justify-content: center;
-    font-family: "Roboto", sans-serif;
-    text-align: center;
-    border-style: solid;
     border-color: #76202e;
-    border-radius: 20px;
     background: #76202e;
     margin: 0px 4% 50px 4%;
-    box-shadow: 15px 15px 5px 3px rgba(53, 7, 14, 0.2);
   }
 
   .p_contact_heading {

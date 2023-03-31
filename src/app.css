@@ -15,3 +15,14 @@ a{
   text-decoration: none;
   color: black;
 }
+
+.global_div_card {
+  height: 350px;
+  padding: 20px;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  border-style: solid;
+  border-radius: 20px;
+  box-shadow: 15px 15px 5px 3px rgba(53, 7, 14, 0.2);
+}

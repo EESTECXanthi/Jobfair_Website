@@ -22,27 +22,25 @@
 
 </script>
 
-<div class="div_card">
+<div class="div_apply_card">
 
-  <div class="div_card_text" id="home">
+  <div class="div_apply_card_text" id="home">
     JobFair 2023 | Find Your Path
   </div>
 
-  <div class="div_card_button">
-    <button class="button_apply_now">Apply now</button>
-  </div>
+  <button class="button_apply_now">Apply now</button>
 
 </div>
 
 
 <div class="div_splide_container">
   <Splide {options} class="test" on:autoplayPlaying={slider}>
-    <SplideSlide><img src={photo001} alt="1" /></SplideSlide>
-    <SplideSlide><img src={photo002} alt="2" /></SplideSlide>
-    <SplideSlide><img src={photo003} alt="3" /></SplideSlide>
-    <SplideSlide><img src={photo004} alt="4" /></SplideSlide>
-    <SplideSlide><img src={photo005} alt="5" /></SplideSlide>
-    <SplideSlide><img src={photo006} alt="6" /></SplideSlide>
+    <SplideSlide><img src={photo001} alt="JobFair 2022" /></SplideSlide>
+    <SplideSlide><img src={photo002} alt="Stand" /></SplideSlide>
+    <SplideSlide><img src={photo003} alt="Photograph" /></SplideSlide>
+    <SplideSlide><img src={photo004} alt="Crowd" /></SplideSlide>
+    <SplideSlide><img src={photo005} alt="Presentation" /></SplideSlide>
+    <SplideSlide><img src={photo006} alt="Organizing Committee 2022" /></SplideSlide>
   </Splide>
 </div>
 
@@ -54,17 +52,17 @@
     margin-right:auto;
   }
 
-  .div_card {
+  .div_apply_card {
     display: flex;
     justify-content: space-around;
     background-color: #76202e;
-    border-radius: 30px;
+    border-radius: 2.5vw;
     border-color: white;
     padding: 2vw;
     border-style: solid;
-    margin: 0px auto 0px auto;
+    margin: 0px auto;
     position: absolute;
-    top: 85vh;
+    top: 80vh;
     left: 0;
     right: 0;
     z-index: 99;
@@ -72,33 +70,28 @@
     width: 60vw;
   }
 
-  .div_card_text {
+  .div_apply_card_text {
     text-align: center;
     font-family: "Roboto", sans-serif;
     font-weight: bold;
-    font-size:50px;
+    font-size: 3vw;
     color: white;
     margin-top: auto;
     margin-bottom: auto;
-  }
-
-  .div_card_button {
-    text-align: center;
-    font-family: "Roboto", sans-serif;
-    font-weight: bold;
   }
 
   .button_apply_now {
     font-weight: bold;
     border-radius: 100px;
     border-style: solid;
-    border-width: 5px;
-    font-size: 30px;
+    border-width: 0.3vw;
+    font-size: 1.5vw;
     color: white;
     background-color: #76202e;
     border-color: white;
-    padding: 15px 30px 15px 30px;
+    padding: 1.5vh 2vw;
     cursor: pointer;
+    margin: auto 0px;
   }
 
   .button_apply_now:hover {

@@ -12,7 +12,7 @@
 <div bind:clientWidth={width}>
   <div class={width > 1200 ? "div_about_horizontal" : "div_about_vertical"}>
     <About_WhatIs />
-    {#if width > 1600}<About_Decoration />{/if}
+    {#if width > 1800}<About_Decoration />{/if}
     <About_EventInfo />
   </div>
 </div>
