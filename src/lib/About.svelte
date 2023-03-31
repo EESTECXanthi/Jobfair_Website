@@ -10,19 +10,24 @@
 <Line id="about" name="About JobFair" />
 
 <div bind:clientWidth={width}>
-  <div class={width > 720 ? "div_about_master" : ""}>
+  <div class={width > 1200 ? "div_about_horizontal" : "div_about_vertical"}>
     <About_WhatIs />
-    {#if width > 1500}<About_Decoration />{/if}
+    {#if width > 1600}<About_Decoration />{/if}
     <About_EventInfo />
   </div>
 </div>
 
 <style>
-  .div_about_master {
+  .div_about_horizontal {
     justify-content: space-around;
     display: flex;
     text-align: center;
-    display: flex;
     text-align: center;
+  }
+
+  .div_about_vertical {
+    text-align: center;
+    text-align: center;
+    margin: 0px auto 0px auto;
   }
 </style>

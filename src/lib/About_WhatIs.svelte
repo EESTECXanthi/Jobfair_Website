@@ -8,15 +8,15 @@
   <hr class="hr_card_underline"/>
 
   <div class="div_about_line">
-    <p class="p_about">[Placeholder]</p>
+    <p class="p_about">&#183 Διημερίδα επαγγελματικού προσανατολισμού.</p>
   </div>
 
   <div class="div_about_line">
-    <p class="p_about">[Placeholder]</p>
+    <p class="p_about">&#183 Απευθύνεται σε φοιτητές πολυτεχνικών σχολών.</p>
   </div>
 
   <div class="div_about_line">
-    <p class="p_about">[Placeholder]</p>
+    <p class="p_about">&#183 Αποτελεί τον συνδετικό κρίκο μεταξύ φοιτητών και εταιρειών.</p>
   </div>
 
 </div>
@@ -24,6 +24,7 @@
 <style>
   .div_about_card {
     flex: 30%;
+    width: 80vw;
     height: 350px;
     padding: 20px;
     justify-content: center;
@@ -33,7 +34,7 @@
     border-color: #76202e;
     border-radius: 20px;
     background: #fff1f3;
-    margin: 0px 2.5vw 50px 5vw;
+    margin: 0px 4% 50px 4%;
     box-shadow: 15px 15px 5px 3px rgba(53, 7, 14, 0.2);
   }
 
@@ -46,7 +47,7 @@
   }
 
   .p_about {
-    font-size: 20px;
+    font-size: 22px;
     padding: 5px;
     background: #fff1f3;
     color: black;

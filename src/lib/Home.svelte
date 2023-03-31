@@ -19,6 +19,7 @@
   const slider = (e) => {
     var rate = e.detail.rate;
   };
+
 </script>
 
 <div class="div_card">
@@ -61,13 +62,14 @@
     border-color: white;
     padding: 2vw;
     border-style: solid;
-    margin: 0px 20vw 0px 20vw;
+    margin: 0px auto 0px auto;
     position: absolute;
     top: 85vh;
     left: 0;
     right: 0;
     z-index: 99;
     box-shadow: 15px 15px 5px 3px rgba(54, 14, 14, 0.2);
+    width: 60vw;
   }
 
   .div_card_text {

@@ -5,8 +5,8 @@
 <!-- svelte-ignore a11y-invalid-attribute -->
 
 
-<header class="header_navbar sticky" id="navbar" bind:clientWidth={width}>
-  <img class="img_navbar_logo" src={combined_logo} alt="LC Xanthi Logo + JobFair Logo" />
+<header class="header_navbar" id="navbar" bind:clientWidth={width}>
+  <img class={width > 920 ? "img_left" : "img_center"} src={combined_logo} alt="LC Xanthi Logo + JobFair Logo" />
 
   <navbar>
     {#if width > 920}
@@ -29,6 +29,19 @@
 </header>
 
 <style>
+  .img_left{
+    width: 250px;
+    cursor: pointer;
+    background-color: #76202e;
+  }
+
+  .img_center{
+    width: 300px;
+    cursor: pointer;
+    background-color: #76202e;
+    margin: auto;
+  }
+
   .li_navbar_link {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
@@ -49,19 +62,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 5%;
-    background-color: #76202e;
-  }
-
-  .img_navbar_logo {
-    width: 250px;
-    cursor: pointer;
+    padding: 20px 5% 20px 5%;
     background-color: #76202e;
   }
 
   .ul_navbar_links {
     list-style: none;
     background-color: #76202e;
+    margin: 0px 2vw 0px 0px;
   }
 
   .ul_navbar_links li {
@@ -79,12 +87,4 @@
   .ul_navbar_links li a:hover {
     color: #ddaeb5;
   }
-
-/*  .sticky {
-    position: sticky;
-    top: 0;
-    width: 100vw;
-    z-index: 100;
-    height: 12vh;
-  }*/
 </style>
