@@ -25,16 +25,20 @@
 <div class="div_apply_card">
 
   <div class="div_apply_card_text" id="home">
-    JobFair 2023 | Find Your Path
+    JobFair 2023
   </div>
 
-  <button class="button_apply_now">Apply now</button>
+  <button class="button_apply_now">
+    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+      Apply now
+    </a>
+  </button>
 
 </div>
 
 
 <div class="div_splide_container">
-  <Splide {options} class="test" on:autoplayPlaying={slider}>
+  <Splide {options} on:autoplayPlaying={slider}>
     <SplideSlide><img src={photo001} alt="JobFair 2022" /></SplideSlide>
     <SplideSlide><img src={photo002} alt="Stand" /></SplideSlide>
     <SplideSlide><img src={photo003} alt="Photograph" /></SplideSlide>
@@ -45,8 +49,19 @@
 </div>
 
 <style>
+  a{
+    color: white;
+  }
+  img {
+    width: 80vw;
+    height: 70vh;
+    object-fit: cover;
+    border-radius: 30px;
+  }
+
   .div_splide_container{
     width: 80vw;
+    height: 88vh;
     padding: 5vh 0px 0px 0px;
     margin-left: auto;
     margin-right:auto;
@@ -56,28 +71,31 @@
     display: flex;
     justify-content: space-around;
     background-color: #76202e;
-    border-radius: 2.5vw;
+    border-radius: 40px;
     border-color: white;
-    padding: 2vw;
+    padding: 1.5vw 1vw;
     border-style: solid;
     margin: 0px auto;
     position: absolute;
-    top: 80vh;
+    top: 78vh;
     left: 0;
     right: 0;
     z-index: 99;
     box-shadow: 15px 15px 5px 3px rgba(54, 14, 14, 0.2);
-    width: 60vw;
+    width: 45vw;
   }
 
   .div_apply_card_text {
     text-align: center;
     font-family: "Roboto", sans-serif;
     font-weight: bold;
-    font-size: 3vw;
+    font-size: 2.5vw;
+    max-height: 200px;
     color: white;
-    margin-top: auto;
-    margin-bottom: auto;
+    overflow: hidden;
+    text-overflow: clip;
+    white-space: nowrap;
+    margin: auto 0px auto 2vw;
   }
 
   .button_apply_now {
@@ -91,7 +109,7 @@
     border-color: white;
     padding: 1.5vh 2vw;
     cursor: pointer;
-    margin: auto 0px;
+    margin: auto 2vw auto 0px;
   }
 
   .button_apply_now:hover {
@@ -100,13 +118,4 @@
     transition: 0.1s;
     box-shadow: 0px 0px 8px white;
   }
-
-  img {
-    width: 80vw;
-    max-height: 87vh;
-    min-height: 88vh;
-    object-fit: cover;
-    border-radius: 30px;
-  }
-
 </style>
