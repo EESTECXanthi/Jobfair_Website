@@ -29,7 +29,7 @@
   </div>
 
   <button class="button_apply_now">
-    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+    <a href="https://forms.gle/xBvhnyH9dKRf7Ubx6" target="_blank">
       Apply now
     </a>
   </button>
@@ -41,7 +41,7 @@
   <Splide {options} on:autoplayPlaying={slider}>
     <SplideSlide><img src={photo001} alt="JobFair 2022" /></SplideSlide>
     <SplideSlide><img src={photo002} alt="Stand" /></SplideSlide>
-    <SplideSlide><img src={photo003} alt="Photograph" /></SplideSlide>
+    <SplideSlide><img src={photo003} alt="Photobooth" /></SplideSlide>
     <SplideSlide><img src={photo004} alt="Crowd" /></SplideSlide>
     <SplideSlide><img src={photo005} alt="Presentation" /></SplideSlide>
     <SplideSlide><img src={photo006} alt="Organizing Committee 2022" /></SplideSlide>
@@ -52,6 +52,11 @@
   a{
     color: white;
   }
+
+  button:hover a{
+    color: #76202e;
+  }
+
   img {
     width: 80vw;
     height: 70vh;
