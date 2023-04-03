@@ -18,5 +18,6 @@
     border-color: #76202e;
     background: #76202e;
     margin: 0px 2vw 50px 2vw;
+    height: 350px;
   }
 </style>

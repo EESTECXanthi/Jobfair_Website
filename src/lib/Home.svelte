@@ -51,10 +51,12 @@
 <style>
   a{
     color: white;
+    transition: 0.2s;
   }
 
-  button:hover a{
+  .button_apply_now:hover a{
     color: #76202e;
+    transition: 0.2s;
   }
 
   img {
@@ -115,12 +117,13 @@
     padding: 1.5vh 2vw;
     cursor: pointer;
     margin: auto 2vw auto 0px;
+    transition: 0.2s;
   }
 
   .button_apply_now:hover {
     color: #76202e;
     background-color: white;
-    transition: 0.1s;
     box-shadow: 0px 0px 8px white;
+    transition: 0.2s;
   }
 </style>

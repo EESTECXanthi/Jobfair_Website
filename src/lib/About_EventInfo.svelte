@@ -34,12 +34,12 @@
     border-color: #76202e;
     background: #fff1f3;
     margin: 0px 4% 50px 4%;
+    border-width: 7px;
   }
 
   .p_about_heading {
     font-size: 40px;
     font-weight: bold;
-    padding: 10px 10px 0px 10px;
     background: #fff1f3;
     color: black;
   }
@@ -73,7 +73,7 @@
     border-left: none;
     border-right: none;
     width: 400px;
-    margin: 5px auto 15px auto;
+    margin: 5px auto 10px auto;
     width: 40%;
   }
 </style>

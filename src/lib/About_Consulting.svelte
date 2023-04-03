@@ -3,44 +3,48 @@
 
 <div class="div_about_card global_div_card">
 
-  <p class="p_about_heading">What is JobFair?</p>
+  <p class="p_about_heading">Consulting</p>
 
   <hr class="hr_card_underline"/>
 
   <div class="div_about_line">
-    <p class="p_about">&#183 Διημερίδα επαγγελματικού προσανατολισμού</p>
+    <p class="p_about">&#183 Στρατηγικός σχεδιασμός</p>
   </div>
 
   <div class="div_about_line">
-    <p class="p_about">&#183 Απευθύνεται σε φοιτητές πολυτεχνικών σχολών</p>
+    <p class="p_about">&#183 Εξυπηρέτηση πελατών και υπηρεσίες μάρκετινγκ</p>
   </div>
 
   <div class="div_about_line">
-    <p class="p_about">&#183 Αποτελεί τον συνδετικό κρίκο μεταξύ φοιτητών και εταιρειών</p>
+    <p class="p_about">&#183 Ανάλυση κινδύνου</p>
+  </div>
+
+  <div class="div_about_line">
+    <p class="p_about">&#183 Οικονομική συμβουλευτική</p>
   </div>
 
 </div>
 
 <style>
   .div_about_card {
-    min-width: 560px;
-    flex: 30%;
+    min-width: 480px;
+    flex: 27%;
     border-color: #76202e;
     background: #fff1f3;
     margin: 0px 4% 50px 4%;
-    border-width: 7px;
   }
 
   .p_about_heading {
     font-size: 40px;
     font-weight: bold;
+    padding: 10px 10px 0px 10px;
     background: #fff1f3;
     color: black;
   }
 
   .p_about {
     font-size: 22px;
-    padding: 5px;
+    padding: 2px;
     background: #fff1f3;
     color: black;
     clear: both;

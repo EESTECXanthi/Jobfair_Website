@@ -18,6 +18,8 @@
     border-color: #76202e;
     background: #fff1f3;
     margin: 0px 2vw 50px 2vw;
+    border-width: 7px;
+    height: 350px;
   }
 
 </style>

@@ -3,32 +3,35 @@
 
 <div class="div_about_card global_div_card">
 
-  <p class="p_about_heading">What is JobFair?</p>
+  <p class="p_about_heading">Energy</p>
 
   <hr class="hr_card_underline"/>
 
   <div class="div_about_line">
-    <p class="p_about">&#183 Διημερίδα επαγγελματικού προσανατολισμού</p>
+    <p class="p_about">&#183 Πάροχοι ηλεκτρικής ενέργειας</p>
   </div>
 
   <div class="div_about_line">
-    <p class="p_about">&#183 Απευθύνεται σε φοιτητές πολυτεχνικών σχολών</p>
+    <p class="p_about">&#183 Πάροχοι αποθήκευσης ηλεκτρικής ενέργειας</p>
   </div>
 
   <div class="div_about_line">
-    <p class="p_about">&#183 Αποτελεί τον συνδετικό κρίκο μεταξύ φοιτητών και εταιρειών</p>
+    <p class="p_about">&#183 Πάροχοι ορυκτών καυσίμων</p>
+  </div>
+
+  <div class="div_about_line">
+    <p class="p_about">&#183 Ανανεώσιμες πηγές ενέργειας</p>
   </div>
 
 </div>
 
 <style>
   .div_about_card {
-    min-width: 560px;
-    flex: 30%;
+    min-width: 480px;
+    flex: 27%;
     border-color: #76202e;
     background: #fff1f3;
     margin: 0px 4% 50px 4%;
-    border-width: 7px;
   }
 
   .p_about_heading {
@@ -40,7 +43,7 @@
 
   .p_about {
     font-size: 22px;
-    padding: 5px;
+    padding: 2px;
     background: #fff1f3;
     color: black;
     clear: both;
