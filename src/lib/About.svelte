@@ -19,7 +19,7 @@
 <Line id="about" name="About JobFair" />
 
 <div bind:clientWidth={width}>
-  <div class={width > 1200 ? "div_about_horizontal" : "div_about_vertical"}>
+  <div class={width > 1200 ? "global_div_card_collage_horizontal" : "global_div_card_collage_vertical"}>
                       <About_WhatIs />
     {#if width > 1800}<About_Decoration />{/if}
                       <About_EventInfo />
@@ -27,7 +27,7 @@
 </div>
 
 <div bind:clientWidth={width}>
-  <div class={width > 1200 ? "div_about_horizontal" : "div_about_vertical"}>
+  <div class={width > 1200 ? "global_div_card_collage_horizontal" : "global_div_card_collage_vertical"}>
                       <About_Energy />
                       <About_SoHaEl />
     {#if width > 1800}<About_Consulting />{/if}
@@ -35,7 +35,7 @@
 </div>
 
 <div bind:clientWidth={width}>
-  <div class={width > 1200 ? "div_about_horizontal" : "div_about_vertical"}>
+  <div class={width > 1200 ? "global_div_card_collage_horizontal" : "global_div_card_collage_vertical"}>
     {#if width <= 1800}<About_Consulting />{/if}
                       <About_Tel />
     {#if width > 1800}<About_Constructing />{/if}
@@ -45,7 +45,7 @@
 
 {#if width <= 1800}
 <div bind:clientWidth={width}>
-  <div class={width > 1200 ? "div_about_horizontal" : "div_about_vertical"}>
+  <div class={width > 1200 ? "global_div_card_collage_horizontal" : "global_div_card_collage_vertical"}>
     <About_Constructing />
     <About_Coaching />
   </div>
@@ -53,17 +53,4 @@
 {/if}
 
 <style>
-  .div_about_horizontal {
-    justify-content: space-around;
-    display: flex;
-    text-align: center;
-    text-align: center;
-    margin: 0px 2.5vw 30px 2.5vw;
-  }
-
-  .div_about_vertical {
-    text-align: center;
-    text-align: center;
-    margin: 0px auto;
-  }
 </style>

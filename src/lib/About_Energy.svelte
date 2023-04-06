@@ -3,24 +3,24 @@
 
 <div class="div_about_card global_div_card">
 
-  <p class="p_about_heading">Energy</p>
+  <p class="p_card_heading global_p_card_heading">Energy</p>
 
   <hr class="hr_card_underline"/>
 
   <div class="div_about_line">
-    <p class="p_about">&#183 Πάροχοι ηλεκτρικής ενέργειας</p>
+    <p class="p_card global_p_card">&#183 Πάροχοι ηλεκτρικής ενέργειας</p>
   </div>
 
   <div class="div_about_line">
-    <p class="p_about">&#183 Πάροχοι αποθήκευσης ηλεκτρικής ενέργειας</p>
+    <p class="p_card global_p_card">&#183 Πάροχοι αποθήκευσης ηλεκτρικής ενέργειας</p>
   </div>
 
   <div class="div_about_line">
-    <p class="p_about">&#183 Πάροχοι ορυκτών καυσίμων</p>
+    <p class="p_card global_p_card">&#183 Πάροχοι ορυκτών καυσίμων</p>
   </div>
 
   <div class="div_about_line">
-    <p class="p_about">&#183 Ανανεώσιμες πηγές ενέργειας</p>
+    <p class="p_card global_p_card">&#183 Ανανεώσιμες πηγές ενέργειας</p>
   </div>
 
 </div>
@@ -32,19 +32,14 @@
     background: #fff1f3;
   }
 
-  .p_about_heading {
-    font-size: 40px;
-    font-weight: bold;
+  .p_card_heading {
     background: #fff1f3;
     color: black;
   }
 
-  .p_about {
-    font-size: 22px;
-    padding: 2px;
+  .p_card {
     background: #fff1f3;
     color: black;
-    clear: both;
   }
 
   .div_about_line {

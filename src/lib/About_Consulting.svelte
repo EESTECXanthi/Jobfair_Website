@@ -3,24 +3,24 @@
 
 <div class="div_about_card global_div_card">
 
-  <p class="p_about_heading">Consulting</p>
+  <p class="p_card_heading global_p_card_heading">Consulting</p>
 
   <hr class="hr_card_underline"/>
 
   <div class="div_about_line">
-    <p class="p_about">&#183 Στρατηγικός σχεδιασμός</p>
+    <p class="p_card global_p_card">&#183 Στρατηγικός σχεδιασμός</p>
   </div>
 
   <div class="div_about_line">
-    <p class="p_about">&#183 Εξυπηρέτηση πελατών και υπηρεσίες μάρκετινγκ</p>
+    <p class="p_card global_p_card">&#183 Εξυπηρέτηση πελατών και υπηρεσίες μάρκετινγκ</p>
   </div>
 
   <div class="div_about_line">
-    <p class="p_about">&#183 Ανάλυση κινδύνου</p>
+    <p class="p_card global_p_card">&#183 Ανάλυση κινδύνου</p>
   </div>
 
   <div class="div_about_line">
-    <p class="p_about">&#183 Οικονομική συμβουλευτική</p>
+    <p class="p_card global_p_card">&#183 Οικονομική συμβουλευτική</p>
   </div>
 
 </div>
@@ -32,20 +32,14 @@
     background: #fff1f3;
   }
 
-  .p_about_heading {
-    font-size: 40px;
-    font-weight: bold;
-    padding: 10px 10px 0px 10px;
+  .p_card_heading {
     background: #fff1f3;
     color: black;
   }
 
-  .p_about {
-    font-size: 22px;
-    padding: 2px;
+  .p_card {
     background: #fff1f3;
     color: black;
-    clear: both;
   }
 
   .div_about_line {

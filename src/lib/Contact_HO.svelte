@@ -5,9 +5,9 @@
 </script>
 
 <div class="div_contact_card global_div_card">
-  <p class="p_contact_heading">JobFair Head Organizer</p>
+  <p class="p_card_heading">JobFair Head Organizer</p>
 
-  <p class="p_contact_subtitle">Δημήτρης Αναστασούδης</p>
+  <p class="p_card_subtitle">Δημήτρης Αναστασούδης</p>
 
   <hr class="hr_card_underline" />
 
@@ -15,7 +15,7 @@
 
     <div class="div_contact_line">
       <img src={email_icon} class="img_icon" alt="Email Icon" />
-      <p class="p_contact">
+      <p class="p_card global_p_card">
         <a href="mailto:dimitrisanastasoudis@gmail.com" target="_blank">
           dimitrisanastasoudis@gmail.com
         </a>
@@ -24,7 +24,7 @@
 
     <div class="div_contact_line">
       <img src={phone_icon} class="img_icon" alt="Phone Icon" />
-      <p class="p_contact">
+      <p class="p_card global_p_card">
         <a href="tel:+306988287864" target="_blank">
           +30 698 828 7864
         </a>
@@ -33,7 +33,7 @@
 
     <div class="div_contact_line">
       <img src={linkedin_icon} class="img_icon" alt="LinkedIn Icon" />
-      <p class="p_contact">
+      <p class="p_card global_p_card">
         <a href="https://linkedin.com/in/dimitris-anastasoudis-aa769922a/" target="_blank">
           Dimitris Anastasoudis
         </a>
@@ -53,10 +53,9 @@
     flex: 30%;
     border-color: #76202e;
     background: #76202e;
-    margin: 0px 4% 50px 4%;
   }
 
-  .p_contact_heading {
+  .p_card_heading {
     font-size: 40px;
     font-weight: bold;
     padding: 10px 10px 0px 10px;
@@ -64,14 +63,14 @@
     color: white;
   }
 
-  .p_contact_subtitle {
+  .p_card_subtitle {
     font-size: 30px;
     padding: 0px 10px 0px 10px;
     background: #76202e;
     color: white;
   }
 
-  .p_contact {
+  .p_card {
     font-size: 20px;
     padding: 5px;
     background: #76202e;

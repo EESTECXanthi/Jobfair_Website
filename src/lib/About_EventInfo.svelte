@@ -6,23 +6,23 @@
 
 <div class="div_about_card global_div_card">
 
-  <p class="p_about_heading">Event Information</p>
+  <p class="p_card_heading global_p_card_heading">Event Information</p>
 
   <hr class="hr_card_underline" />
 
   <div class="div_about_line">
     <img src={calendar_icon} class="img_icon" alt="Calendar Icon" />
-    <p class="p_about">6-7 Μαΐου 2023</p>
+    <p class="p_card global_p_card">6-7 Μαΐου 2023</p>
   </div>
 
   <div class="div_about_line">
     <img src={location_icon} class="img_icon" alt="Location Icon" />
-    <p class="p_about">Πανεπιστημιούπολη Ξάνθης</p>
+    <p class="p_card global_p_card">Πανεπιστημιούπολη Ξάνθης</p>
   </div>
 
   <div class="div_about_line">
     <img src={building_icon} class="img_icon" alt="Location Icon" />
-    <p class="p_about">Κτίριο ΗΜΜΥ</p>
+    <p class="p_card global_p_card">Κτίριο ΗΜΜΥ</p>
   </div>
 
 </div>
@@ -35,19 +35,15 @@
     border-width: 7px;
   }
 
-  .p_about_heading {
+  .p_card_heading {
     font-size: 40px;
-    font-weight: bold;
     background: #fff1f3;
     color: black;
   }
 
-  .p_about {
-    font-size: 30px;
-    padding: 5px;
+  .p_card {
     background: #fff1f3;
     color: black;
-    clear: both;
   }
 
   .div_about_line {

@@ -3,24 +3,24 @@
 
 <div class="div_about_card global_div_card">
 
-  <p class="p_about_heading">Coaching</p>
+  <p class="p_card_heading global_p_card_heading">Coaching</p>
 
   <hr class="hr_card_underline"/>
 
   <div class="div_about_line">
-    <p class="p_about">&#183 Πρόσληψη και διαχείρηση προσωπικού</p>
+    <p class="p_card global_p_card">&#183 Πρόσληψη και διαχείρηση προσωπικού</p>
   </div>
 
   <div class="div_about_line">
-    <p class="p_about">&#183 Εκπαίδευση προσωπικού</p>
+    <p class="p_card global_p_card">&#183 Εκπαίδευση προσωπικού</p>
   </div>
 
   <div class="div_about_line">
-    <p class="p_about">&#183 Παροχή επαγγελματικής καθοδήγησης</p>
+    <p class="p_card global_p_card">&#183 Παροχή επαγγελματικής καθοδήγησης</p>
   </div>
 
   <div class="div_about_line">
-    <p class="p_about">&#183 Παροχή υπηρεσιών μισθοδοσίας</p>
+    <p class="p_card global_p_card">&#183 Παροχή υπηρεσιών μισθοδοσίας</p>
   </div>
 
 </div>
@@ -32,19 +32,14 @@
     background: #fff1f3;
   }
 
-  .p_about_heading {
-    font-size: 40px;
-    font-weight: bold;
+  .p_card_heading {
     background: #fff1f3;
     color: black;
   }
 
-  .p_about {
-    font-size: 22px;
-    padding: 2px;
+  .p_card {
     background: #fff1f3;
     color: black;
-    clear: both;
   }
 
   .div_about_line {

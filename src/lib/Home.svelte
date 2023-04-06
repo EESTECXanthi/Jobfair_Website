@@ -114,9 +114,9 @@
     color: white;
     background-color: #76202e;
     border-color: white;
-    padding: 1.5vh 2vw;
+    padding: 1vw 2vw;
     cursor: pointer;
-    margin: auto 2vw auto 0px;
+    margin: 0.2vh 2vw 0.2vh 0px;
     transition: 0.2s;
   }
 

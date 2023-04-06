@@ -17,7 +17,7 @@ a{
 }
 
 .global_div_card {
-  min-width: 400px;
+  min-width: 200px;
   height: auto;
   padding: 20px;
   justify-content: center;
@@ -27,7 +27,36 @@ a{
   border-radius: 20px;
   box-shadow: 15px 15px 5px 3px rgba(53, 7, 14, 0.2);
   border-width: 4px;
-  margin: 0px 4% 50px 4%;
+  margin: 0px 1vw 50px 1vw;
+}
+
+.global_div_card_collage_horizontal {
+  justify-content: space-around;
+  display: flex;
+  text-align: center;
+  text-align: center;
+  margin: 0px 2.5vw 30px 2.5vw;
+}
+
+.global_div_card_collage_vertical {
+  text-align: center;
+  text-align: center;
+  margin: 0px 1vw;
+}
+
+.global_p_card_heading {
+  font-size: 35px;
+  font-weight: bold;
+  background: #fff1f3;
+  color: black;
+}
+
+.global_p_card {
+  font-size: 22px;
+  padding: 2px;
+  background: #fff1f3;
+  color: black;
+  clear: both;
 }
 
 .splide .splide__pagination__page {

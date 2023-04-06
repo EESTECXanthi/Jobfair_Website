@@ -3,20 +3,20 @@
 
 <div class="div_about_card global_div_card">
 
-  <p class="p_about_heading">Constructing</p>
+  <p class="p_card_heading global_p_card_heading">Constructing</p>
 
   <hr class="hr_card_underline"/>
 
   <div class="div_about_line">
-    <p class="p_about">&#183 Σχεδιασμός και παραγωγή αρχιτεκτονικών συστημάτων</p>
+    <p class="p_card global_p_card">&#183 Σχεδιασμός και παραγωγή αρχιτεκτονικών συστημάτων</p>
   </div>
 
   <div class="div_about_line">
-    <p class="p_about">&#183 Διοίκηση και διαχείριση έργων</p>
+    <p class="p_card global_p_card">&#183 Διοίκηση και διαχείριση έργων</p>
   </div>
 
   <div class="div_about_line">
-    <p class="p_about">&#183 Εκτέλεση έργων σε ηλεκτρομηχανολογικές εγκαταστάσεις</p>
+    <p class="p_card global_p_card">&#183 Εκτέλεση έργων σε ηλεκτρομηχανολογικές εγκαταστάσεις</p>
   </div>
 
 </div>
@@ -28,19 +28,14 @@
     background: #fff1f3;
   }
 
-  .p_about_heading {
-    font-size: 40px;
-    font-weight: bold;
+  .p_card_heading {
     background: #fff1f3;
     color: black;
   }
 
-  .p_about {
-    font-size: 22px;
-    padding: 2px;
+  .p_card {
     background: #fff1f3;
     color: black;
-    clear: both;
   }
 
   .div_about_line {

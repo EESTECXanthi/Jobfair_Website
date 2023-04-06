@@ -5,26 +5,28 @@
 
   let width;
 </script>
+<!-- svelte-ignore a11y-invalid-attribute -->
 
-<footer bind:clientWidth={width}>
+
+<footer class="footer_navbar" id="navbar" bind:clientWidth={width}>
   <img src={lc_xanthi_logo} alt="LC Xanthi Logo" />
-  <img src={jobfair_logo} alt="Jobfair Logo" />
-  <img src={duth_logo} alt="Duth Logo" />
+  <img src={jobfair_logo} alt="JobFair Logo" />
+  <img src={duth_logo} alt="DUTH Logo" />
+
 </footer>
 
 <style>
   img{
-    height: 100px;
+    width: 10vw;
     cursor: pointer;
     background-color: #76202e;
   }
 
-  footer{
+  .footer_navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 15%;
     background-color: #76202e;
-    margin: 50px 0px 0px 0px;
   }
 </style>

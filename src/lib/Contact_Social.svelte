@@ -9,33 +9,33 @@
 
 <div class="div_contact_card global_div_card">
 
-  <p class="p_contact_heading">Social Media</p>
+  <p class="p_card_heading">Social Media</p>
 
   <hr class="hr_card_underline" />
 
   <div class="div_contact_line">
     <img src={website_icon} class="img_icon" alt="Website Icon" />
-    <p class="p_contact"><a href="#">eestec.ee.duth.gr</a></p>
+    <p class="p_card global_p_card"><a href="#">eestec.ee.duth.gr</a></p>
   </div>
 
   <div class="div_contact_line">
     <img src={email_icon} class="img_icon" alt="Email Icon" />
-    <p class="p_contact"><a href="mailto:jobfair.eesteclcxanthi@gmail.com" target="_blank">jobfair.eesteclcxanthi@gmail.com</a></p>
+    <p class="p_card global_p_card"><a href="mailto:jobfair.eesteclcxanthi@gmail.com" target="_blank">jobfair.eesteclcxanthi@gmail.com</a></p>
   </div>
 
   <div class="div_contact_line">
     <img src={facebook_icon} class="img_icon" alt="Facebook Icon" />
-    <p class="p_contact"><a href="https://facebook.com/jobfairlcxanthi/" target="_blank">JobFair-EESTEC LC Xanthi</a></p>
+    <p class="p_card global_p_card"><a href="https://facebook.com/jobfairlcxanthi/" target="_blank">JobFair-EESTEC LC Xanthi</a></p>
   </div>
 
   <div class="div_contact_line">
     <img src={instagram_icon} class="img_icon" alt="Instagram Icon" />
-    <p class="p_contact"><a href="https://instagram.com/jobfair_xanthi/" target="_blank">@jobfair_xanthi</a></p>
+    <p class="p_card global_p_card"><a href="https://instagram.com/jobfair_xanthi/" target="_blank">@jobfair_xanthi</a></p>
   </div>
 
   <div class="div_contact_line">
     <img src={linkedin_icon} class="img_icon" alt="LinkedIn Icon" />
-    <p class="p_contact"><a href="https://linkedin.com/company/eesteclcxanthi/" target="_blank">EESTEC LC Xanthi</a></p>
+    <p class="p_card global_p_card"><a href="https://linkedin.com/company/eesteclcxanthi/" target="_blank">EESTEC LC Xanthi</a></p>
   </div>
 
 </div>
@@ -49,10 +49,9 @@
     flex: 30%;
     border-color: #76202e;
     background: #76202e;
-    margin: 0px 4% 50px 4%;
   }
 
-  .p_contact_heading {
+  .p_card_heading {
     font-size: 40px;
     font-weight: bold;
     padding: 10px 10px 0px 10px;
@@ -60,7 +59,7 @@
     color: white;
   }
 
-  .p_contact {
+  .p_card {
     font-size: 20px;
     padding: 5px;
     background: #76202e;

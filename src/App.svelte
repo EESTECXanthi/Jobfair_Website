@@ -10,5 +10,6 @@
 <Navbar />
 <Home />
 <About />
+<!--Sponsors />-->
 <Contact />
 <Footer />

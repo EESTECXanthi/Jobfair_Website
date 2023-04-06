@@ -3,20 +3,20 @@
 
 <div class="div_about_card global_div_card">
 
-  <p class="p_about_heading">What is JobFair?</p>
+  <p class="p_card_heading global_p_card_heading">What is JobFair?</p>
 
   <hr class="hr_card_underline"/>
 
   <div class="div_about_line">
-    <p class="p_about">&#183 Διημερίδα επαγγελματικού προσανατολισμού</p>
+    <p class="p_card global_p_card">&#183 Διημερίδα επαγγελματικού προσανατολισμού</p>
   </div>
 
   <div class="div_about_line">
-    <p class="p_about">&#183 Απευθύνεται σε φοιτητές πολυτεχνικών σχολών</p>
+    <p class="p_card global_p_card">&#183 Απευθύνεται σε φοιτητές πολυτεχνικών σχολών</p>
   </div>
 
   <div class="div_about_line">
-    <p class="p_about">&#183 Αποτελεί τον συνδετικό κρίκο μεταξύ φοιτητών και εταιρειών</p>
+    <p class="p_card global_p_card">&#183 Αποτελεί τον συνδετικό κρίκο μεταξύ φοιτητών και εταιρειών</p>
   </div>
 
 </div>
@@ -29,19 +29,15 @@
     border-width: 7px;
   }
 
-  .p_about_heading {
+  .p_card_heading {
     font-size: 40px;
-    font-weight: bold;
     background: #fff1f3;
     color: black;
   }
 
-  .p_about {
-    font-size: 22px;
-    padding: 5px;
+  .p_card {
     background: #fff1f3;
     color: black;
-    clear: both;
   }
 
   .div_about_line {
