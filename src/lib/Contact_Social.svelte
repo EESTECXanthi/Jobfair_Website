@@ -46,7 +46,6 @@
   }
 
   .div_contact_card {
-    min-width: 560px;
     flex: 30%;
     border-color: #76202e;
     background: #76202e;

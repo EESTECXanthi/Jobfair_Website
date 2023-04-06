@@ -23,12 +23,12 @@
     display: flex;
     text-align: center;
     text-align: center;
+    margin: 0px 2.5vw 30px 2.5vw;
   }
 
   .div_contact_vertical {
-    justify-content: space-around;
     text-align: center;
     text-align: center;
-    margin: 0px auto 0px auto;
+    margin: 0px auto;
   }
 </style>

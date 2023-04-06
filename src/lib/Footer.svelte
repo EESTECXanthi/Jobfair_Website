@@ -14,7 +14,7 @@
 
 <style>
   img{
-    height: 150px;
+    height: 100px;
     cursor: pointer;
     background-color: #76202e;
   }

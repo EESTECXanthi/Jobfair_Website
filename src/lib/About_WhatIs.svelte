@@ -23,11 +23,9 @@
 
 <style>
   .div_about_card {
-    min-width: 560px;
     flex: 30%;
     border-color: #76202e;
     background: #fff1f3;
-    margin: 0px 4% 50px 4%;
     border-width: 7px;
   }
 

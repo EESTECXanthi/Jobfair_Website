@@ -17,6 +17,7 @@ a{
 }
 
 .global_div_card {
+  min-width: 400px;
   height: auto;
   padding: 20px;
   justify-content: center;
@@ -26,6 +27,7 @@ a{
   border-radius: 20px;
   box-shadow: 15px 15px 5px 3px rgba(53, 7, 14, 0.2);
   border-width: 4px;
+  margin: 0px 4% 50px 4%;
 }
 
 .splide .splide__pagination__page {

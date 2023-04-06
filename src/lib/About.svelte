@@ -64,6 +64,6 @@
   .div_about_vertical {
     text-align: center;
     text-align: center;
-    margin: 0px 15vw;
+    margin: 0px auto;
   }
 </style>
