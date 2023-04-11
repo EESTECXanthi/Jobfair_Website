@@ -53,7 +53,7 @@
   }
 
   .img_icon {
-    margin: 7px 5px 0px 5px;
+    margin-right: 7px;
     border: none;
     width: 30px;
     height: 30px;
