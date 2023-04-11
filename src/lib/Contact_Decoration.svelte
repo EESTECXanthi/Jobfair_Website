@@ -19,7 +19,7 @@
     background: #76202e;
     margin: 0px 2vw 50px 2vw;
     border-width: 7px;
-    height: 350px;
+    height: 400px;
     padding: 20px;
     justify-content: center;
     font-family: "Roboto", sans-serif;

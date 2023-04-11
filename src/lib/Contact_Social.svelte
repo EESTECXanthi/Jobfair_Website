@@ -38,6 +38,11 @@
     <p class="p_card global_p_card"><a href="https://linkedin.com/company/eesteclcxanthi/" target="_blank">EESTEC LC Xanthi</a></p>
   </div>
 
+  <div class="div_contact_line">
+    <img src={website_icon} class="img_icon" alt="Website Icon" />
+    <p class="p_card global_p_card"><a href="https://ee.duth.gr/" target="_blank">ee.duth.gr</a></p>
+  </div>
+
 </div>
 
 <style>

@@ -15,7 +15,7 @@
 
   <div class="div_contact_line">
     <img src={website_icon} class="img_icon" alt="Website Icon" />
-    <p class="p_card global_p_card"><a href="https://eestec.ee.duth.gr/">eestec.ee.duth.gr</a></p>
+    <p class="p_card global_p_card"><a href="https://eestec.ee.duth.gr/" target="_blank">eestec.ee.duth.gr</a></p>
   </div>
 
   <div class="div_contact_line">

@@ -17,7 +17,7 @@
 
 <style>
   img{
-    width: 15%;
+    width: 25%;
     cursor: pointer;
     background-color: #76202e;
   }

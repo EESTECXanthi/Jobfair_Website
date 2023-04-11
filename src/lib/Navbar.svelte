@@ -17,9 +17,9 @@
         <li class="li_navbar_link">
           <a class="a_navbar_link" href="#about">About</a>
         </li>
-        <!--<li class="li_navbar_link">
+        <li class="li_navbar_link">
           <a class="a_navbar_link" href="#sponsors">Sponsors</a>
-        </li>-->
+        </li>
         <li class="li_navbar_link">
           <a class="a_navbar_link" href="#contact">Contact</a>
         </li>
