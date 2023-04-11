@@ -1,11 +1,10 @@
 <script lang="ts">
-  import calendar_icon from "../assets/img/icons/calendar.png";
-  import location_icon from "../assets/img/icons/location.png";
-  import building_icon from "../assets/img/icons/building.png";
+  import calendar_icon from "../assets/img/icons/calendar.svg";
+  import location_icon from "../assets/img/icons/location.svg";
+  import building_icon from "../assets/img/icons/building.svg";
 </script>
 
 <div class="div_about_card global_div_card">
-
   <p class="p_card_heading global_p_card_heading">Event Information</p>
 
   <hr class="hr_card_underline" />
@@ -24,7 +23,6 @@
     <img src={building_icon} class="img_icon" alt="Location Icon" />
     <p class="p_card global_p_card">Κτίριο ΗΜΜΥ</p>
   </div>
-
 </div>
 
 <style>

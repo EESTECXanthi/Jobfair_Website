@@ -1,12 +1,12 @@
 <script lang="ts">
   import { Splide, SplideSlide, SplideTrack } from "@splidejs/svelte-splide";
   import "@splidejs/svelte-splide/css";
-  import photo001 from "../assets/img/photos/photo001.png";
-  import photo002 from "../assets/img/photos/photo002.png";
-  import photo003 from "../assets/img/photos/photo003.png";
-  import photo004 from "../assets/img/photos/photo004.png";
-  import photo005 from "../assets/img/photos/photo005.png";
-  import photo006 from "../assets/img/photos/photo006.png";
+  import photo001 from "../assets/img/photos/photo001.webp";
+  import photo002 from "../assets/img/photos/photo002.webp";
+  import photo003 from "../assets/img/photos/photo003.webp";
+  import photo004 from "../assets/img/photos/photo004.webp";
+  import photo005 from "../assets/img/photos/photo005.webp";
+  import photo006 from "../assets/img/photos/photo006.webp";
 
   const options = {
     rewind: true,
@@ -19,23 +19,17 @@
   const slider = (e) => {
     var rate = e.detail.rate;
   };
-
 </script>
 
 <div class="div_apply_card">
-
-  <div class="div_apply_card_text" id="home">
-    JobFair 2023
-  </div>
+  <div class="div_apply_card_text" id="home">JobFair 2023</div>
 
   <button class="button_apply_now">
     <a href="https://forms.gle/xBvhnyH9dKRf7Ubx6" target="_blank">
       Apply now
     </a>
   </button>
-
 </div>
-
 
 <div class="div_splide_container">
   <Splide {options} on:autoplayPlaying={slider}>
@@ -44,17 +38,19 @@
     <SplideSlide><img src={photo003} alt="Photobooth" /></SplideSlide>
     <SplideSlide><img src={photo004} alt="Crowd" /></SplideSlide>
     <SplideSlide><img src={photo005} alt="Presentation" /></SplideSlide>
-    <SplideSlide><img src={photo006} alt="Organizing Committee 2022" /></SplideSlide>
+    <SplideSlide
+      ><img src={photo006} alt="Organizing Committee 2022" /></SplideSlide
+    >
   </Splide>
 </div>
 
 <style>
-  a{
+  a {
     color: white;
     transition: 0.2s;
   }
 
-  .button_apply_now:hover a{
+  .button_apply_now:hover a {
     color: #76202e;
     transition: 0.2s;
   }
@@ -66,12 +62,12 @@
     border-radius: 30px;
   }
 
-  .div_splide_container{
+  .div_splide_container {
     width: 80vw;
     height: 88vh;
     padding: 5vh 0px 0px 0px;
     margin-left: auto;
-    margin-right:auto;
+    margin-right: auto;
   }
 
   .div_apply_card {

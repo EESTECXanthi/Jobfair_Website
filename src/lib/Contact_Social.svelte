@@ -1,14 +1,14 @@
 <script lang="ts">
-  import email_icon from "../assets/img/icons/email.png";
-  import facebook_icon from "../assets/img/icons/facebook.png";
-  import instagram_icon from "../assets/img/icons/instagram.png";
-  import linkedin_icon from "../assets/img/icons/linkedin.png";
-  import website_icon from "../assets/img/icons/website.png";
+  import email_icon from "../assets/img/icons/email.svg";
+  import facebook_icon from "../assets/img/icons/facebook.svg";
+  import instagram_icon from "../assets/img/icons/instagram.svg";
+  import linkedin_icon from "../assets/img/icons/linkedin.svg";
+  import website_icon from "../assets/img/icons/website.svg";
 </script>
+
 <!-- svelte-ignore a11y-invalid-attribute -->
 
 <div class="div_contact_card global_div_card">
-
   <p class="p_card_heading">Social Media</p>
 
   <hr class="hr_card_underline" />
@@ -20,33 +20,50 @@
 
   <div class="div_contact_line">
     <img src={email_icon} class="img_icon" alt="Email Icon" />
-    <p class="p_card global_p_card"><a href="mailto:jobfair.eesteclcxanthi@gmail.com" target="_blank">jobfair.eesteclcxanthi@gmail.com</a></p>
+    <p class="p_card global_p_card">
+      <a href="mailto:jobfair.eesteclcxanthi@gmail.com" target="_blank"
+        >jobfair.eesteclcxanthi@gmail.com</a
+      >
+    </p>
   </div>
 
   <div class="div_contact_line">
     <img src={facebook_icon} class="img_icon" alt="Facebook Icon" />
-    <p class="p_card global_p_card"><a href="https://facebook.com/jobfairlcxanthi/" target="_blank">JobFair-EESTEC LC Xanthi</a></p>
+    <p class="p_card global_p_card">
+      <a href="https://facebook.com/jobfairlcxanthi/" target="_blank"
+        >JobFair-EESTEC LC Xanthi</a
+      >
+    </p>
   </div>
 
   <div class="div_contact_line">
     <img src={instagram_icon} class="img_icon" alt="Instagram Icon" />
-    <p class="p_card global_p_card"><a href="https://instagram.com/jobfair_xanthi/" target="_blank">@jobfair_xanthi</a></p>
+    <p class="p_card global_p_card">
+      <a href="https://instagram.com/jobfair_xanthi/" target="_blank"
+        >@jobfair_xanthi</a
+      >
+    </p>
   </div>
 
   <div class="div_contact_line">
     <img src={linkedin_icon} class="img_icon" alt="LinkedIn Icon" />
-    <p class="p_card global_p_card"><a href="https://linkedin.com/company/eesteclcxanthi/" target="_blank">EESTEC LC Xanthi</a></p>
+    <p class="p_card global_p_card">
+      <a href="https://linkedin.com/company/eesteclcxanthi/" target="_blank"
+        >EESTEC LC Xanthi</a
+      >
+    </p>
   </div>
 
   <div class="div_contact_line">
     <img src={website_icon} class="img_icon" alt="Website Icon" />
-    <p class="p_card global_p_card"><a href="https://ee.duth.gr/" target="_blank">ee.duth.gr</a></p>
+    <p class="p_card global_p_card">
+      <a href="https://ee.duth.gr/" target="_blank">ee.duth.gr</a>
+    </p>
   </div>
-
 </div>
 
 <style>
-  a{
+  a {
     color: white;
   }
 
@@ -87,6 +104,7 @@
     width: 20px;
     height: 20px;
     clear: both;
+    filter: brightness(0) invert(1);
   }
 
   .hr_card_underline {
