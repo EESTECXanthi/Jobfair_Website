@@ -18,12 +18,13 @@
   import netcompany_intrasoft from "../assets/img/logos/sponsors/netcompany_intrasoft_logo.png";
   import titan from "../assets/img/logos/sponsors/titan_logo.png";
   let width: number;
+  let height: number;
 </script>
 
 <Line id="sponsors" name="JobFair Sponsors" />
 
-<div bind:clientWidth={width}>
-  <div class={width > 1800 ? "global_div_card_collage_horizontal div_platinum_container" : ""}>
+<div bind:clientWidth={width} bind:clientHeight={height}>
+  <div class={((width > 1800)&&(width > height)) ? "global_div_card_collage_horizontal div_platinum_container" : ""}>
     {#if width > 3200}<div class="div_blank_card global_div_card"></div>{/if}
     <Sponsors_Platinum id="platinum_1" logo={sunlight} name="Sunlight" />
     <div class="div_spacer"></div>
@@ -35,7 +36,8 @@
 </div>
 
 <div bind:clientWidth={width}>
-  <div class={width > 1800 ? "global_div_card_collage_horizontal div_gold_container" : ""}>
+  <div class={((width > 1800)&&(width > height)) ? "global_div_card_collage_horizontal div_gold_container" : ""}>
+    {#if width > 3200}<div class="div_blank_card global_div_card"></div>{/if}
     <Sponsors_Gold id="gold_1" logo={altair} name="Altair" />
     <div class="div_spacer"></div>
     <Sponsors_Gold id="gold_2" logo={chipglobe} name="Chipglobe" />
@@ -43,11 +45,13 @@
     <Sponsors_Gold id="gold_3" logo={archirodon} name="Archirodon" />
     <div class="div_spacer"></div>
     <Sponsors_Gold id="gold_4" logo={rhoe} name="Rhoe" />
+    {#if width > 3200}<div class="div_blank_card global_div_card"></div>{/if}
   </div>
 </div>
 
 <div bind:clientWidth={width}>
-  <div class={width > 1800 ? "global_div_card_collage_horizontal div_silver_container" : ""}>
+  <div class={((width > 1800)&&(width > height)) ? "global_div_card_collage_horizontal div_silver_container" : ""}>
+    {#if width > 3200}<div class="div_blank_card global_div_card"></div>{/if}
     <Sponsors_Silver id="silver_1" logo={hdl} name="HDL" />
     <div class="div_spacer"></div>
     <Sponsors_Silver id="silver_2" logo={alumil} name="Alumil" />
@@ -55,14 +59,17 @@
     <Sponsors_Silver id="silver_3" logo={deloitte} name="Deloitte" />
     <div class="div_spacer"></div>
     <Sponsors_Silver id="silver_4" logo={vtool} name="Vtool" />
+    {#if width > 3200}<div class="div_blank_card global_div_card"></div>{/if}
   </div>
 </div>
 
 <div bind:clientWidth={width}>
-  <div class={width > 1800 ? "global_div_card_collage_horizontal div_bronze_container" : ""}>
+  <div class={((width > 1800)&&(width > height)) ? "global_div_card_collage_horizontal div_bronze_container" : ""}>
+    {#if width > 3200}<div class="div_blank_card global_div_card"></div>{/if}
     <Sponsors_Bronze id="bronze_1" logo={netcompany_intrasoft} name="Netcompany-Intrasoft" />
     <div class="div_spacer"></div>
     <Sponsors_Bronze id="bronze_2" logo={titan} name="Titan" />
+    {#if width > 3200}<div class="div_blank_card global_div_card"></div>{/if}
   </div>
 </div>
 

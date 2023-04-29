@@ -17,6 +17,7 @@
 <style>
   .img_sponsor_logo{
     width: max(18vw, 36vh);
+    max-width: max(12vh, 550px);
   }
 
   .hr_line {
@@ -41,7 +42,7 @@
     margin: 0px auto 50px auto;
     width: 90%;
     max-width: 80vh;
-    min-width: 360px;
+    min-width: max(12vh, 540px);
 }
 
   .p_card_heading {

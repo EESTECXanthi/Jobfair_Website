@@ -64,6 +64,7 @@ a{
   border-style: solid;
   border-width: 2px;
   border-radius: 10px;
+  border-color: #dddddd;
 }
 
 .splide .splide__pagination__page {
