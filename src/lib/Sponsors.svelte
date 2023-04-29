@@ -19,6 +19,7 @@
   import titan from "../assets/img/logos/sponsors/titan_logo.png";
   let width: number;
   let height: number;
+  import Sponsors_Page from "./Sponsors_Page.svelte";
 </script>
 
 <Line id="sponsors" name="JobFair Sponsors" />
@@ -72,6 +73,14 @@
     {#if width > 3200}<div class="div_blank_card global_div_card"></div>{/if}
   </div>
 </div>
+
+<!--<hr />
+<Sponsors_Page
+name="Sunlight"
+logo={sunlight}
+description="Η Sunlight Group είναι κορυφαία εταιρεία τεχνολογίας και παροχής καινοτόμων λύσεων αποθήκευσης ενέργειας για βιομηχανικές και εκτός δρόμου εφαρμογές, με περισσότερα από 30 χρόνια εμπειρίας. Ειδικεύεται στην ανάπτυξη, παραγωγή και διάθεση μπαταριών μολύβδου-οξέος και ιόντων λιθίου για βιομηχανική ηλεκτροκίνηση και ηλεκτροκίνηση οχημάτων αναψυχής, καθώς και συστημάτων αποθήκευσης ενέργειας. Τα προϊόντα αυτά κατασκευάζονται και συναρμολογούνται στις υπερσύγχρονες εγκαταστάσεις της Sunlight στην Ελλάδα, την Ιταλία, τη Γερμανία τις ΗΠΑ και αλλού, και εξάγονται σε περισσότερες από 115 χώρες."
+/>
+<hr />-->
 
 <style>
   .div_spacer{
