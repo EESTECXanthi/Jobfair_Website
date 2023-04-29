@@ -1,12 +1,12 @@
 <script lang="ts">
-  import combined_logo from "../assets/img/logos/combined_logo.png";
+  import jobfair_logo_navbar from "../assets/img/logos/other/jobfair_logo_navbar.png";
   let width;
 </script>
 <!-- svelte-ignore a11y-invalid-attribute -->
 
 
 <header class="header_navbar" id="navbar" bind:clientWidth={width}>
-  <img class={width > 920 ? "img_left" : "img_center"} src={combined_logo} alt="LC Xanthi Logo + JobFair Logo" />
+  <img class={width > 920 ? "img_left" : "img_center"} src={jobfair_logo_navbar} alt="JobFair Logo" />
 
   <navbar>
     {#if width > 920}
@@ -30,13 +30,14 @@
 
 <style>
   .img_left{
-    width: 250px;
+    width: 180px;
     cursor: pointer;
     background-color: #76202e;
+    margin: 0px 0px 0px 2vw;
   }
 
   .img_center{
-    width: 300px;
+    width: 180px;
     cursor: pointer;
     background-color: #76202e;
     margin: auto;

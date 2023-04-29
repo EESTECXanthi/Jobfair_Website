@@ -10,9 +10,9 @@
 
 <div bind:clientWidth={width}>
   <div class={width > 1200 ? "global_div_card_collage_horizontal" : "global_div_card_collage_vertical"}>
-    <Contact_LC />
-    {#if width > 1800}<Contact_Decoration />{/if}
     <Contact_Social />
+    {#if width > 1800}<Contact_Decoration />{/if}
+    <Contact_LC />
   </div>
 </div>
 

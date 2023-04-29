@@ -41,11 +41,11 @@ a{
 .global_div_card_collage_vertical {
   text-align: center;
   text-align: center;
-  margin: 0px 1vw;
+  margin: auto;
+  width: 90%;
 }
 
 .global_p_card_heading {
-  font-size: 35px;
   font-weight: bold;
   background: #fff1f3;
   color: black;
@@ -57,6 +57,13 @@ a{
   background: #fff1f3;
   color: black;
   clear: both;
+}
+
+.global_img_sponsor_logo{
+  padding: 20px;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 10px;
 }
 
 .splide .splide__pagination__page {

@@ -38,6 +38,5 @@
     font-weight: bold;
     font-size: 50px;
     margin: 50px 0px 0px 0px;
-    /*border-bottom: 2px solid black;*/
   }
 </style>

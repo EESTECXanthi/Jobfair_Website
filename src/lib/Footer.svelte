@@ -1,7 +1,7 @@
 <script lang="ts">
-  import lc_xanthi_logo from "../assets/img/logos/lc_xanthi_logo.png";
-  import jobfair_logo from "../assets/img/logos/jobfair_logo.png";
-  import duth_logo from "../assets/img/logos/duth_logo.png";
+  import lc_xanthi_logo from "../assets/img/logos/other/lc_xanthi_logo.png";
+  import jobfair_logo from "../assets/img/logos/other/jobfair_logo.png";
+  import duth_logo from "../assets/img/logos/other/duth_logo.png";
 
   let width;
 </script>
