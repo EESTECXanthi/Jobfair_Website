@@ -2,13 +2,18 @@
   export let id: string;
   export let name: string;
   export let logo: string;
+  export let page: string;
 </script>
 
 <hr class="hr_line" {id} />
 
 <div class="div_sponsors_card">
 
-  <img class="img_sponsor_logo global_img_sponsor_logo" src={logo} alt="Sponsor Logo" />
+  <a href={page}>
+
+    <img class="img_sponsor_logo global_img_sponsor_logo" src={logo} alt="Sponsor Logo" />
+
+  </a>
 
   <p class="p_card_heading global_p_card_heading">{name}</p>
 
@@ -42,7 +47,7 @@
     margin: 0px auto 50px auto;
     width: 70%;
     max-width: 50vh;
-    min-width: max(3vh, 180px);
+    min-width: min(9vh, 240px);
 }
 
   .p_card_heading {

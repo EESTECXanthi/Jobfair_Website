@@ -26,11 +26,11 @@
 <div bind:clientWidth={width} bind:clientHeight={height}>
   <div class={((width > 1800)&&(width > height)) ? "global_div_card_collage_horizontal div_platinum_container" : ""}>
     {#if width > 3200}<div class="div_blank_card global_div_card"></div>{/if}
-    <Sponsors_Platinum id="platinum_1" logo={sunlight} name="Sunlight" />
+    <Sponsors_Platinum id="platinum_1" logo={sunlight} name="Sunlight"page="#" />
     <div class="div_spacer"></div>
-    <Sponsors_Platinum id="platinum_2" logo={ey} name="EY" />
+    <Sponsors_Platinum id="platinum_2" logo={ey} name="EY"page="#" />
     <div class="div_spacer"></div>
-    <Sponsors_Platinum id="platinum_3" logo={thrace_group} name="Thrace Group" />
+    <Sponsors_Platinum id="platinum_3" logo={thrace_group} name="Thrace Group"page="#" />
     {#if width > 3200}<div class="div_blank_card global_div_card"></div>{/if}
   </div>
 </div>
@@ -38,13 +38,13 @@
 <div bind:clientWidth={width}>
   <div class={((width > 1800)&&(width > height)) ? "global_div_card_collage_horizontal div_gold_container" : ""}>
     {#if width > 3200}<div class="div_blank_card global_div_card"></div>{/if}
-    <Sponsors_Gold id="gold_1" logo={altair} name="Altair" />
+    <Sponsors_Gold id="gold_1" logo={altair} name="Altair"page="#" />
     <div class="div_spacer"></div>
-    <Sponsors_Gold id="gold_2" logo={chipglobe} name="Chipglobe" />
+    <Sponsors_Gold id="gold_2" logo={chipglobe} name="Chipglobe"page="#" />
     <div class="div_spacer"></div>
-    <Sponsors_Gold id="gold_3" logo={archirodon} name="Archirodon" />
+    <Sponsors_Gold id="gold_3" logo={archirodon} name="Archirodon"page="#" />
     <div class="div_spacer"></div>
-    <Sponsors_Gold id="gold_4" logo={rhoe} name="Rhoe" />
+    <Sponsors_Gold id="gold_4" logo={rhoe} name="Rhoe"page="#" />
     {#if width > 3200}<div class="div_blank_card global_div_card"></div>{/if}
   </div>
 </div>
@@ -52,13 +52,13 @@
 <div bind:clientWidth={width}>
   <div class={((width > 1800)&&(width > height)) ? "global_div_card_collage_horizontal div_silver_container" : ""}>
     {#if width > 3200}<div class="div_blank_card global_div_card"></div>{/if}
-    <Sponsors_Silver id="silver_1" logo={hdl} name="HDL" />
+    <Sponsors_Silver id="silver_1" logo={hdl} name="HDL"page="#" />
     <div class="div_spacer"></div>
-    <Sponsors_Silver id="silver_2" logo={alumil} name="Alumil" />
+    <Sponsors_Silver id="silver_2" logo={alumil} name="Alumil"page="#" />
     <div class="div_spacer"></div>
-    <Sponsors_Silver id="silver_3" logo={deloitte} name="Deloitte" />
+    <Sponsors_Silver id="silver_3" logo={deloitte} name="Deloitte"page="#" />
     <div class="div_spacer"></div>
-    <Sponsors_Silver id="silver_4" logo={vtool} name="Vtool" />
+    <Sponsors_Silver id="silver_4" logo={vtool} name="Vtool"page="#" />
     {#if width > 3200}<div class="div_blank_card global_div_card"></div>{/if}
   </div>
 </div>
@@ -66,9 +66,9 @@
 <div bind:clientWidth={width}>
   <div class={((width > 1800)&&(width > height)) ? "global_div_card_collage_horizontal div_bronze_container" : ""}>
     {#if width > 3200}<div class="div_blank_card global_div_card"></div>{/if}
-    <Sponsors_Bronze id="bronze_1" logo={netcompany_intrasoft} name="Netcompany-Intrasoft" />
+    <Sponsors_Bronze id="bronze_1" logo={netcompany_intrasoft} name="Netcompany-Intrasoft"page="#" />
     <div class="div_spacer"></div>
-    <Sponsors_Bronze id="bronze_2" logo={titan} name="Titan" />
+    <Sponsors_Bronze id="bronze_2" logo={titan} name="Titan"page="#" />
     {#if width > 3200}<div class="div_blank_card global_div_card"></div>{/if}
   </div>
 </div>
