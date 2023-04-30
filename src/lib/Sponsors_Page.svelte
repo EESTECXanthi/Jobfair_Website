@@ -1,35 +1,38 @@
 <script lang="ts">
-  import placeholder from "../assets/img/logos/sponsors/placeholder.png";
-  export let name: string;
-  export let logo: string;
-  export let description: string;
+  export let page_name: string;
+  export let page_logo: string;
+  export let page_description: string;
+  let width;
 </script>
 
+<div bind:clientWidth={width}>
 
-<div class="div_container">
+  <div class={width > 1200 ? "div_page_container" : "div_page_container_vertical"}>
 
-  <div class="div_logo_name">
+    <div class="div_page_logo_name">
 
-    <div class="div_logo global_div_card">
+      <div class="div_page_logo global_div_card">
 
-      <img
-      src={logo}
-      alt="Company Logo"
-      />
+        <img
+        src={page_logo}
+        alt="Company Logo"
+        />
+
+      </div>
+
+      <div class="div_page_name global_div_card"><p class="p_page_name global_p_card_heading">{page_name}</p></div>
 
     </div>
 
-    <div class="div_name global_div_card"><p class="p_name global_p_card_heading">{name}</p></div>
-
-  </div>
-
-  <div class="div_description global_div_card">
+    <div class={width > 1200 ? "div_page_description global_div_card" : "div_page_description_vertical global_div_card"}>
     
-    <p class="p_description global_p_card">
+      <p class="p_page_description global_p_card">
 
-      {description}
+        {page_description}
 
-    </p>
+      </p>
+
+    </div>
 
   </div>
 
@@ -41,38 +44,49 @@
     max-width: max(12vh, 550px);
   }
 
-  .div_logo{
-
+  .div_page_logo{
     border-style: solid;
     border-color: #76202e;
     border-radius: 20px;
   }
 
-  .div_name{
+  .div_page_name{
     border-style: solid;
     border-color: #76202e;
     border-radius: 20px;
   }
 
-  .div_description{
+  .div_page_description{
     border-style: solid;
     border-color: #76202e;
     border-radius: 20px;
     width: 40vw;
     max-width: 1600px;
+    font-size: 25px;
   }
 
-  .div_container{
+  .div_page_description_vertical{
+    border-style: solid;
+    border-color: #76202e;
+    border-radius: 20px;
+    max-width: 1600px;
+  }
+
+  .div_page_container{
     justify-content: center;
     display: flex;
   }
 
-  .p_name{
+  .div_page_container_vertical{
+    margin: 0px 3vh;
+  }
+
+  .p_page_name{
     font-size: 35px;
   }
 
-  .p_description{
+  .p_page_description{
     padding: 0.5vw 1vw;
-    font-size: 30px;
+    font-size: 25px;
   }
 </style>
