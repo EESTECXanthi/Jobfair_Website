@@ -30,14 +30,14 @@
 
 <style>
   .img_left{
-    width: 180px;
+    width: 10%;
     cursor: pointer;
     background-color: #76202e;
     margin: 0px 0px 0px 2vw;
   }
 
   .img_center{
-    width: 180px;
+    width: min(25vh, 30vw);
     cursor: pointer;
     background-color: #76202e;
     margin: auto;

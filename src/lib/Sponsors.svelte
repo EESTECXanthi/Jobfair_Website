@@ -373,16 +373,27 @@
   background: #fff1f3;
  }
 
- .img_sponsor_logo_gold{
-    width: max(15vw, 30vh);
-    max-width: max(11vh, 400px);
-    cursor: pointer;
+.img_sponsor_logo_bronze{
+  width: max(9vw, 18vh);
+  max-width: max(7vh, 160px);
+}
+
+.img_sponsor_logo_silver{
+  width: max(12vw, 24vh);
+  max-width: max(8vh, 220px);
+  cursor: pointer;
+}
+
+.img_sponsor_logo_gold{
+  width: max(15vw, 30vh);
+  max-width: max(9vh, 280px);
+  cursor: pointer;
 }
 
 .img_sponsor_logo_platinum{
-    width: max(18vw, 36vh);
-    cursor: pointer;
-    max-width: max(11vh, 400px);
+  width: max(18vw, 36vh);
+  max-width: max(10vh, 340px);
+  cursor: pointer;
 }
 
 .div_sponsors_card_gold {
@@ -437,12 +448,6 @@
   color: black;
   font-size: 35px;
   padding: 20px 0px 10px 0px;
-}
-
-.img_sponsor_logo_silver{
-    cursor: pointer;
-  width: max(12vw, 24vh);
-  max-width: max(10vh, 250px);
 }
 
 .div_sponsors_card_silver {
